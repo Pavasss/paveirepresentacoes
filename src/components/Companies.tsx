@@ -1,11 +1,20 @@
 
 import { Card, CardContent } from "./ui/card";
 import { Building2 } from "lucide-react";
+import LiplastLogo from "/lovable-uploads/4728399f-477e-431b-aa72-21744815b3e7.png";
 
 const Companies = () => {
   const companies = [
-    "Libreplast", "Liplast", "Totalplast", "Vabene", "Plastsul",
-    "P.Plast", "Magitus", "Magipack", "Guarufilme", "Thermoflexo"
+    { name: "Libreplast", logo: null },
+    { name: "Liplast", logo: LiplastLogo },
+    { name: "Totalplast", logo: null },
+    { name: "Vabene", logo: null },
+    { name: "Plastsul", logo: null },
+    { name: "P.Plast", logo: null },
+    { name: "Magitus", logo: null },
+    { name: "Magipack", logo: null },
+    { name: "Guarufilme", logo: null },
+    { name: "Thermoflexo", logo: null }
   ];
 
   return (
@@ -27,9 +36,17 @@ const Companies = () => {
             <div key={index} className="transform transition-all hover:scale-105 duration-300">
               <Card className="h-full bg-white border border-gray-200 hover:shadow-md hover:border-brand-blue transition-all">
                 <CardContent className="p-6 flex flex-col items-center justify-center text-center h-full">
-                  <Building2 className="h-10 w-10 text-brand-blue mb-3" />
+                  {company.logo ? (
+                    <img 
+                      src={company.logo} 
+                      alt={`${company.name} logo`} 
+                      className="max-h-20 max-w-full object-contain mb-3" 
+                    />
+                  ) : (
+                    <Building2 className="h-10 w-10 text-brand-blue mb-3" />
+                  )}
                   <h3 className="text-lg font-bold font-poppins text-brand-gray">
-                    {company}
+                    {company.name}
                   </h3>
                 </CardContent>
               </Card>
