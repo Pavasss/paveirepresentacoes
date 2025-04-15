@@ -1,12 +1,12 @@
 
 import { Card, CardContent } from "./ui/card";
 import { Building2 } from "lucide-react";
-import PaveiLogo from "/lovable-uploads/2b9dd23c-be26-4ad4-928f-5979f3b8976f.png";
+import LiplastLogo from "/lovable-uploads/4728399f-477e-431b-aa72-21744815b3e7.png";
 
 const Companies = () => {
   const companies = [
     { name: "Libreplast", logo: null },
-    { name: "Pavei Representações", logo: PaveiLogo },
+    { name: "Liplast", logo: LiplastLogo },
     { name: "Totalplast", logo: null },
     { name: "Vabene", logo: null },
     { name: "Plastsul", logo: null },
@@ -40,7 +40,7 @@ const Companies = () => {
                     <img 
                       src={company.logo} 
                       alt={`${company.name} logo`} 
-                      className="max-h-24 max-w-full object-contain mb-3 hover:scale-110 transition-transform" 
+                      className="max-h-20 max-w-full object-contain mb-3" 
                     />
                   ) : (
                     <Building2 className="h-10 w-10 text-brand-blue mb-3" />
