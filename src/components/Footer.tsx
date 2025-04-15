@@ -1,6 +1,7 @@
 
 import { Instagram, Facebook, Linkedin, Mail } from "lucide-react";
 import { Link } from "react-scroll";
+import PaveiLogo from "/lovable-uploads/d8d889ac-2bd2-475b-879c-5372885a70f0.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,7 +11,13 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6 py-12">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold font-poppins mb-4">Embalagens Virtuais Brasil</h3>
+            <div className="mb-4">
+              <img 
+                src={PaveiLogo} 
+                alt="Pavei Representações" 
+                className="h-14 object-contain bg-white p-2 rounded"
+              />
+            </div>
             <p className="text-gray-300 mb-4 font-inter">
               Representação comercial especializada em produtos de embalagens descartáveis.
             </p>
@@ -24,7 +31,7 @@ const Footer = () => {
               <a href="#" className="text-white hover:text-brand-blue transition-colors">
                 <Linkedin size={20} />
               </a>
-              <a href="mailto:contato@embalagensvirtuais.com.br" className="text-white hover:text-brand-blue transition-colors">
+              <a href="mailto:contato@paveirepresentacoes.com.br" className="text-white hover:text-brand-blue transition-colors">
                 <Mail size={20} />
               </a>
             </div>
@@ -61,14 +68,14 @@ const Footer = () => {
             <ul className="space-y-2 text-gray-300">
               <li>Telefone: (11) 9999-9999</li>
               <li>WhatsApp: (11) 99999-9999</li>
-              <li>Email: contato@embalagensvirtuais.com.br</li>
+              <li>Email: contato@paveirepresentacoes.com.br</li>
               <li>São Paulo - SP</li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>© {currentYear} Embalagens Virtuais Brasil. Todos os direitos reservados.</p>
+          <p>© {currentYear} Pavei Representações. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
+import PaveiLogo from "/lovable-uploads/d8d889ac-2bd2-475b-879c-5372885a70f0.png";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,9 +39,11 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         <div className="flex items-center">
-          <h1 className="text-2xl font-bold font-poppins text-brand-darkBlue">
-            Embalagens Virtuais Brasil
-          </h1>
+          <img 
+            src={PaveiLogo} 
+            alt="Pavei Representações" 
+            className="h-12 md:h-14 object-contain"
+          />
         </div>
 
         {/* Desktop Navigation */}
