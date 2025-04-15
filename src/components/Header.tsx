@@ -1,5 +1,5 @@
 
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
@@ -42,7 +42,7 @@ const Header = () => {
           <img 
             src={PaveiLogo} 
             alt="Pavei Representações" 
-            className="h-12 md:h-14 object-contain"
+            className="h-12 md:h-14 object-contain transition-transform duration-300 hover:scale-105 rounded-lg shadow-sm hover:shadow-md"
           />
         </div>
 

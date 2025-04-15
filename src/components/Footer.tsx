@@ -1,4 +1,3 @@
-
 import { Instagram, Facebook, Linkedin, Mail } from "lucide-react";
 import { Link } from "react-scroll";
 import PaveiLogo from "/lovable-uploads/d8d889ac-2bd2-475b-879c-5372885a70f0.png";
@@ -11,11 +10,11 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6 py-12">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <div className="mb-4">
+            <div className="mb-4 flex justify-start items-center">
               <img 
                 src={PaveiLogo} 
                 alt="Pavei Representações" 
-                className="h-14 object-contain bg-white p-2 rounded"
+                className="h-14 object-contain bg-white p-3 rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
               />
             </div>
             <p className="text-gray-300 mb-4 font-inter">
