@@ -2,6 +2,7 @@
 import { Card, CardContent } from "./ui/card";
 import { Building2, ExternalLink } from "lucide-react";
 import LiplastLogo from "/lovable-uploads/4728399f-477e-431b-aa72-21744815b3e7.png";
+import PPlastLogo from "/lovable-uploads/2dd685f3-d41f-4830-be44-77292432d18b.png";
 
 const Companies = () => {
   const companies = [
@@ -10,7 +11,7 @@ const Companies = () => {
     { name: "Totalplast", logo: null, link: null },
     { name: "Vabene", logo: null, link: null },
     { name: "Plastsul", logo: null, link: null },
-    { name: "P.Plast", logo: null, link: null },
+    { name: "P.Plast", logo: PPlastLogo, link: "https://pplast.com.br/" },
     { name: "Magitus", logo: null, link: null },
     { name: "Magipack", logo: null, link: null },
     { name: "Guarufilme", logo: null, link: null },
