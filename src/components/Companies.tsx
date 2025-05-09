@@ -1,20 +1,20 @@
 
 import { Card, CardContent } from "./ui/card";
-import { Building2 } from "lucide-react";
+import { Building2, ExternalLink } from "lucide-react";
 import LiplastLogo from "/lovable-uploads/4728399f-477e-431b-aa72-21744815b3e7.png";
 
 const Companies = () => {
   const companies = [
-    { name: "Libreplast", logo: null },
-    { name: "Liplast", logo: LiplastLogo },
-    { name: "Totalplast", logo: null },
-    { name: "Vabene", logo: null },
-    { name: "Plastsul", logo: null },
-    { name: "P.Plast", logo: null },
-    { name: "Magitus", logo: null },
-    { name: "Magipack", logo: null },
-    { name: "Guarufilme", logo: null },
-    { name: "Thermoflexo", logo: null }
+    { name: "Libreplast", logo: null, link: null },
+    { name: "Liplast", logo: LiplastLogo, link: "https://www.liplast.com.br/" },
+    { name: "Totalplast", logo: null, link: null },
+    { name: "Vabene", logo: null, link: null },
+    { name: "Plastsul", logo: null, link: null },
+    { name: "P.Plast", logo: null, link: null },
+    { name: "Magitus", logo: null, link: null },
+    { name: "Magipack", logo: null, link: null },
+    { name: "Guarufilme", logo: null, link: null },
+    { name: "Thermoflexo", logo: null, link: null }
   ];
 
   return (
@@ -48,6 +48,16 @@ const Companies = () => {
                   <h3 className="text-lg font-bold font-poppins text-brand-gray">
                     {company.name}
                   </h3>
+                  {company.link && (
+                    <a
+                      href={company.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-2 flex items-center text-brand-blue hover:text-brand-darkBlue text-sm transition-colors"
+                    >
+                      Visitar site <ExternalLink size={14} className="ml-1" />
+                    </a>
+                  )}
                 </CardContent>
               </Card>
             </div>
