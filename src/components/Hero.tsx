@@ -1,4 +1,3 @@
-
 import { ArrowRight } from "lucide-react";
 import { Button } from "./ui/button";
 import { Link } from "react-scroll";
@@ -9,13 +8,9 @@ const Hero = () => {
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="animate-fade-in-up">
-            <div className="mb-8 max-w-[400px]">
-              <img 
-                src="/lovable-uploads/1659e93f-e4db-41b3-bb32-f63074582499.png" 
-                alt="Pavei Representações" 
-                className="w-full h-auto"
-              />
-            </div>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-poppins text-brand-gray mb-6 leading-tight">
+              Representamos qualidade, confiança e as melhores marcas do mercado de embalagens.
+            </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 font-inter">
               Soluções em embalagens com quem entende do assunto. Representamos as melhores marcas do mercado para oferecer a você o que há de mais confiável e prático.
             </p>
