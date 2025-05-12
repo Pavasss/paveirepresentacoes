@@ -8,7 +8,7 @@ import {
   Hand,
   ShoppingBag,
   Shirt,
-  Hat
+  ChefHat
 } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
 
@@ -62,7 +62,7 @@ const Products = () => {
     },
     {
       name: "Toucas",
-      icon: <Hat className="h-10 w-10 text-brand-orange" />,
+      icon: <ChefHat className="h-10 w-10 text-brand-orange" />,
       description: "Toucas descartáveis para uso em cozinhas e ambientes que exigem higiene.",
     },
   ];
