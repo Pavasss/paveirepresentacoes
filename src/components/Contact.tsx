@@ -1,5 +1,5 @@
 
-import { Mail, Phone, MessageSquare, MapPin } from "lucide-react";
+import { Mail, Phone, MessageSquare, MapPin, Instagram } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -50,6 +50,25 @@ const Contact = () => {
                 <div>
                   <h4 className="font-bold text-gray-800 mb-1">Email</h4>
                   <p className="text-gray-600">contato@paveirepresentacoes.com.br</p>
+                </div>
+              </div>
+              
+              <div className="flex items-start">
+                <div className="mr-4 bg-brand-blue/10 p-3 rounded-full">
+                  <Instagram className="h-6 w-6 text-brand-blue" />
+                </div>
+                <div>
+                  <h4 className="font-bold text-gray-800 mb-1">Instagram</h4>
+                  <p className="text-gray-600">
+                    <a 
+                      href="https://www.instagram.com/pavei.representacoes?igsh=MTRzZXgwbmo1bXM5dA==" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="hover:text-brand-blue transition-colors"
+                    >
+                      @pavei.representacoes
+                    </a>
+                  </p>
                 </div>
               </div>
               
