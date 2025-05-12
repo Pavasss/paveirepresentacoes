@@ -4,7 +4,11 @@ import {
   Utensils,
   CupSoda,
   Package,
-  Thermometer
+  Thermometer,
+  Hand,
+  ShoppingBag,
+  Shirt,
+  Hat
 } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
 
@@ -40,6 +44,26 @@ const Products = () => {
       name: "Embalagens térmicas",
       icon: <Thermometer className="h-10 w-10 text-brand-orange" />,
       description: "Embalagens especiais para manter a temperatura ideal dos alimentos.",
+    },
+    {
+      name: "Luvas",
+      icon: <Hand className="h-10 w-10 text-brand-orange" />,
+      description: "Luvas descartáveis para manipulação segura de alimentos e produtos.",
+    },
+    {
+      name: "Sacolas",
+      icon: <ShoppingBag className="h-10 w-10 text-brand-orange" />,
+      description: "Sacolas resistentes em diversos tamanhos para transporte de produtos.",
+    },
+    {
+      name: "Panos",
+      icon: <Shirt className="h-10 w-10 text-brand-orange" />,
+      description: "Panos de limpeza e higienização para ambientes comerciais.",
+    },
+    {
+      name: "Toucas",
+      icon: <Hat className="h-10 w-10 text-brand-orange" />,
+      description: "Toucas descartáveis para uso em cozinhas e ambientes que exigem higiene.",
     },
   ];
 
