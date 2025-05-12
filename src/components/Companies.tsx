@@ -4,7 +4,7 @@ import { Building2, ExternalLink } from "lucide-react";
 import LibreplastLogo from "/lovable-uploads/e2adbeea-74fd-47ed-81d5-5f38e7b22a1e.png";
 import LiplastLogo from "/lovable-uploads/4728399f-477e-431b-aa72-21744815b3e7.png";
 import PPlastLogo from "/lovable-uploads/2dd685f3-d41f-4830-be44-77292432d18b.png";
-import TotalplastLogo from "/lovable-uploads/2ddb63e7-c1d6-46a5-adce-fbe9f1079ab2.png";
+import TotalplastLogo from "/lovable-uploads/cff86a8a-2590-41e6-af53-6372835c2641.png";
 import VabeneLogo from "/lovable-uploads/070f5fb4-825e-4b6c-9d2b-60dd98a74215.png";
 import MagitusLogo from "/lovable-uploads/0211c9d5-8826-4afc-98a4-3fe73a14272e.png";
 import PlastsulLogo from "/lovable-uploads/efd0f605-d8f6-47bd-8f0d-418d1591dfbd.png";
