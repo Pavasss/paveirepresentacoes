@@ -13,16 +13,18 @@ const About = () => {
         </div>
         
         <div className="grid md:grid-cols-2 gap-10 items-center">
-          <div className="flex justify-center">
-            <div className="relative">
-              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-brand-blue/10 flex items-center justify-center">
-                <LucideBuilding size={100} className="text-brand-blue" />
-              </div>
-              <div className="absolute -bottom-4 -right-4 bg-white p-4 rounded-lg shadow-lg">
-                <p className="font-poppins font-bold text-brand-gray">
-                  Anos de experiência e um portfólio sólido
-                </p>
-              </div>
+          <div className="flex justify-center flex-col space-y-6">
+            <div className="relative overflow-hidden rounded-lg shadow-lg">
+              <img 
+                src="/public/lovable-uploads/fc2d83a7-3dc8-4064-9280-2c7438c000a2.png" 
+                alt="Equipe Pavei Representações" 
+                className="w-full h-auto"
+              />
+            </div>
+            <div className="bg-white p-4 rounded-lg shadow-md">
+              <p className="font-poppins font-bold text-brand-gray text-center">
+                Nossa equipe de profissionais especializados
+              </p>
             </div>
           </div>
           
