@@ -10,6 +10,7 @@ import MagitusLogo from "/lovable-uploads/b950299d-8d72-4465-9a9a-64145b434959.p
 import PlastsulLogo from "/lovable-uploads/efd0f605-d8f6-47bd-8f0d-418d1591dfbd.png";
 import MagipackLogo from "/lovable-uploads/9a7a52f1-0ebf-492c-82d4-e04fe7cbb30a.png";
 import GuarufilmeLogo from "/lovable-uploads/852cd3a3-5bd3-4f6c-b8e0-28314c83f5eb.png";
+import ThermoflexoLogo from "/lovable-uploads/87a59662-6473-4aec-9e38-37ecf067dbe7.png";
 
 const Companies = () => {
   const companies = [
@@ -22,7 +23,7 @@ const Companies = () => {
     { name: "Magitus", logo: MagitusLogo, link: "https://www.magitus.com.br/" },
     { name: "Magipack", logo: MagipackLogo, link: "https://www.magipack.com.br/" },
     { name: "Guarufilme", logo: GuarufilmeLogo, link: "https://www.guarufilme.com.br/novosite/" },
-    { name: "Thermoflexo", logo: null, link: null }
+    { name: "Thermoflexo", logo: ThermoflexoLogo, link: "https://thermoflexo.com.br/" }
   ];
 
   return (
