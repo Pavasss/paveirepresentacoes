@@ -1,4 +1,3 @@
-
 import { Instagram, Facebook, Linkedin, Mail } from "lucide-react";
 import { Link } from "react-scroll";
 
@@ -15,7 +14,13 @@ const Footer = () => {
               Representação comercial especializada em produtos de embalagens descartáveis.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-white hover:text-brand-blue transition-colors">
+              <a 
+                href="https://www.instagram.com/pavei.representacoes?igsh=MTRzZXgwbmo1bXM5dA==" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-white hover:text-brand-blue transition-colors"
+                aria-label="Instagram"
+              >
                 <Instagram size={20} />
               </a>
               <a href="#" className="text-white hover:text-brand-blue transition-colors">
