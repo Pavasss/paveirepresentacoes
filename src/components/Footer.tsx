@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6 py-12">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold font-poppins mb-4">Embalagens Virtuais Brasil</h3>
+            <h3 className="text-xl font-bold font-poppins mb-4">Pavei Representações</h3>
             <p className="text-gray-300 mb-4 font-inter">
               Representação comercial especializada em produtos de embalagens descartáveis.
             </p>
@@ -68,7 +68,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>© {currentYear} Embalagens Virtuais Brasil. Todos os direitos reservados.</p>
+          <p>© {currentYear} Pavei Representações. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
