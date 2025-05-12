@@ -1,8 +1,9 @@
+
 import { Card, CardContent } from "./ui/card";
 import { Building2, ExternalLink } from "lucide-react";
 import LibreplastLogo from "/lovable-uploads/e2adbeea-74fd-47ed-81d5-5f38e7b22a1e.png";
 import LiplastLogo from "/lovable-uploads/4728399f-477e-431b-aa72-21744815b3e7.png";
-import PPlastLogo from "/lovable-uploads/2dd685f3-d41f-4830-be44-77292432d18b.png";
+import PPlastLogo from "/lovable-uploads/77d5dedc-0b4e-4553-bf55-b95f214978e6.png";
 import TotalplastLogo from "/lovable-uploads/cff86a8a-2590-41e6-af53-6372835c2641.png";
 import VabeneLogo from "/lovable-uploads/ce391618-da4c-437b-8b32-3e4946090153.png";
 import MagitusLogo from "/lovable-uploads/0211c9d5-8826-4afc-98a4-3fe73a14272e.png";
