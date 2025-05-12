@@ -4,8 +4,7 @@ import {
   Utensils,
   CupSoda,
   Package,
-  Thermometer,
-  LayoutGrid
+  Thermometer
 } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
 
@@ -41,11 +40,6 @@ const Products = () => {
       name: "Embalagens térmicas",
       icon: <Thermometer className="h-10 w-10 text-brand-orange" />,
       description: "Embalagens especiais para manter a temperatura ideal dos alimentos.",
-    },
-    {
-      name: "Filmes e bobinas plásticas",
-      icon: <LayoutGrid className="h-10 w-10 text-brand-orange" />,
-      description: "Materiais para embalar e conservar alimentos com segurança.",
     },
   ];
 
