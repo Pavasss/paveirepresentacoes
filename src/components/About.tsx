@@ -12,7 +12,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="flex justify-center flex-col space-y-6">
             <div className="relative overflow-hidden rounded-lg shadow-lg">
-              <img alt="Equipe Pavei Representações" className="w-full h-auto" src="/lovable-uploads/3d52585b-e4df-4515-a565-228019c7eebc.png" />
+              <img alt="Equipe Pavei Representações" className="w-full h-auto" src="/lovable-uploads/af727ece-6e66-4b2f-9c9a-d54d11a07bfb.png" />
             </div>
             <div className="bg-white p-4 rounded-lg shadow-md">
               <p className="font-poppins font-bold text-brand-gray text-center">
