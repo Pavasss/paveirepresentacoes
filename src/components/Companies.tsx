@@ -6,6 +6,7 @@ import PPlastLogo from "/lovable-uploads/2dd685f3-d41f-4830-be44-77292432d18b.pn
 import TotalplastLogo from "/lovable-uploads/2ddb63e7-c1d6-46a5-adce-fbe9f1079ab2.png";
 import VabeneLogo from "/lovable-uploads/070f5fb4-825e-4b6c-9d2b-60dd98a74215.png";
 import MagitusLogo from "/lovable-uploads/0211c9d5-8826-4afc-98a4-3fe73a14272e.png";
+import PlastsulLogo from "/lovable-uploads/efd0f605-d8f6-47bd-8f0d-418d1591dfbd.png";
 
 const Companies = () => {
   const companies = [
@@ -13,7 +14,7 @@ const Companies = () => {
     { name: "Liplast", logo: LiplastLogo, link: "https://www.liplast.com.br/" },
     { name: "Totalplast", logo: TotalplastLogo, link: "https://www.totalplast.com.br/" },
     { name: "Vabene", logo: VabeneLogo, link: "https://vabene.com.br/" },
-    { name: "Plastsul", logo: null, link: null },
+    { name: "Plastsul", logo: PlastsulLogo, link: "https://plastsul.com.br/" },
     { name: "P.Plast", logo: PPlastLogo, link: "https://pplast.com.br/" },
     { name: "Magitus", logo: MagitusLogo, link: "https://www.magitus.com.br/" },
     { name: "Magipack", logo: null, link: null },
