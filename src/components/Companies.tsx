@@ -1,6 +1,7 @@
 
 import { Card, CardContent } from "./ui/card";
 import { Building2, ExternalLink } from "lucide-react";
+import LibreplastLogo from "/lovable-uploads/e2adbeea-74fd-47ed-81d5-5f38e7b22a1e.png";
 import LiplastLogo from "/lovable-uploads/4728399f-477e-431b-aa72-21744815b3e7.png";
 import PPlastLogo from "/lovable-uploads/2dd685f3-d41f-4830-be44-77292432d18b.png";
 import TotalplastLogo from "/lovable-uploads/2ddb63e7-c1d6-46a5-adce-fbe9f1079ab2.png";
@@ -12,7 +13,7 @@ import GuarufilmeLogo from "/lovable-uploads/852cd3a3-5bd3-4f6c-b8e0-28314c83f5e
 
 const Companies = () => {
   const companies = [
-    { name: "Libreplast", logo: null, link: null },
+    { name: "Libreplast", logo: LibreplastLogo, link: "https://www.libreplast.com.br/" },
     { name: "Liplast", logo: LiplastLogo, link: "https://www.liplast.com.br/" },
     { name: "Totalplast", logo: TotalplastLogo, link: "https://www.totalplast.com.br/" },
     { name: "Vabene", logo: VabeneLogo, link: "https://vabene.com.br/" },
