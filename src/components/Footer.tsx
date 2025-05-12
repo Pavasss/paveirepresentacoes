@@ -24,7 +24,7 @@ const Footer = () => {
               <a href="#" className="text-white hover:text-brand-blue transition-colors">
                 <Linkedin size={20} />
               </a>
-              <a href="mailto:contato@embalagensvirtuais.com.br" className="text-white hover:text-brand-blue transition-colors">
+              <a href="mailto:contato@paveirepresentacoes.com.br" className="text-white hover:text-brand-blue transition-colors">
                 <Mail size={20} />
               </a>
             </div>
@@ -59,10 +59,10 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold font-poppins mb-4">Contato</h3>
             <ul className="space-y-2 text-gray-300">
-              <li>Telefone: (11) 9999-9999</li>
-              <li>WhatsApp: (11) 99999-9999</li>
-              <li>Email: contato@embalagensvirtuais.com.br</li>
-              <li>São Paulo - SP</li>
+              <li>Telefone: (51) 98089-1199</li>
+              <li>WhatsApp: (51) 98089-1199</li>
+              <li>Email: contato@paveirepresentacoes.com.br</li>
+              <li>Rio Grande do Sul - RS</li>
             </ul>
           </div>
         </div>
