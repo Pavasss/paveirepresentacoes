@@ -53,9 +53,7 @@ const companiesData: CompanyData[] = [
       { id: 1, name: "Bobinas Picotadas", description: "Bobinas de sacolas plásticas picotadas para facilitar a separação", category: "Bobinas" },
       { id: 2, name: "Bobinas Lisas", description: "Bobinas lisas para embalagem de produtos", category: "Bobinas" },
       { id: 3, name: "Sacos para Lixo", description: "Sacos reforçados para coleta de lixo em diversos tamanhos", category: "Sacos" },
-      { id: 4, name: "Lonas Plásticas", description: "Lonas plásticas para proteção de materiais", category: "Lonas" },
-      { id: 5, name: "Embalagens para Pães", description: "Embalagens personalizadas para pães e produtos de panificação", category: "Embalagens" },
-      { id: 6, name: "Sacolas Personalizadas", description: "Sacolas com impressão personalizada para comércios", category: "Sacolas" }
+      { id: 4, name: "Sacolas Personalizadas", description: "Sacolas com impressão personalizada para comércios", category: "Sacolas" }
     ]
   },
   {
