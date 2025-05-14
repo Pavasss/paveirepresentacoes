@@ -65,9 +65,9 @@ const companiesData: CompanyData[] = [
     foundedYear: "1995",
     location: "Rio de Janeiro, RJ",
     products: [
-      { id: 1, name: "Marmitas Térmicas", description: "Marmitas com divisórias e tampa de fechamento seguro", category: "Marmitas" },
-      { id: 2, name: "Talheres Resistentes", description: "Kit com garfo, faca e colher de alta durabilidade", category: "Talheres" },
-      { id: 3, name: "Luvas Descartáveis", description: "Caixa com 100 luvas para manipulação de alimentos", category: "Luvas" }
+      { id: 1, name: "Sacolas em Caixa", description: "Sacolas plásticas organizadas em caixa para fácil armazenamento e uso", category: "Sacolas" },
+      { id: 2, name: "Sacolas em Fardo", description: "Sacolas em fardo para uso comercial em grande volume", category: "Sacolas" },
+      { id: 3, name: "Saco de Lixo", description: "Sacos para lixo em diversos tamanhos e resistências", category: "Sacos" }
     ]
   },
   {
