@@ -27,6 +27,7 @@ type Product = {
   name: string;
   description: string;
   category: string;
+  subcategory: string; // Added subcategory field
   imageUrl?: string;
 };
 
@@ -51,10 +52,10 @@ const companiesData: CompanyData[] = [
     foundedYear: "2000",
     location: "Orleans, SC",
     products: [
-      { id: 1, name: "Bobinas Picotadas", description: "Bobinas de sacolas plásticas picotadas para facilitar a separação", category: "Bobinas" },
-      { id: 2, name: "Bobinas Lisas", description: "Bobinas lisas para embalagem de produtos", category: "Bobinas" },
-      { id: 3, name: "Sacos para Lixo", description: "Sacos reforçados para coleta de lixo em diversos tamanhos", category: "Sacos" },
-      { id: 4, name: "Sacolas Personalizadas", description: "Sacolas com impressão personalizada para comércios", category: "Sacolas" }
+      { id: 1, name: "Bobinas Picotadas", description: "Bobinas de sacolas plásticas picotadas para facilitar a separação", category: "Bobinas", subcategory: "Picotadas" },
+      { id: 2, name: "Bobinas Lisas", description: "Bobinas lisas para embalagem de produtos", category: "Bobinas", subcategory: "Lisas" },
+      { id: 3, name: "Sacos para Lixo", description: "Sacos reforçados para coleta de lixo em diversos tamanhos", category: "Sacos", subcategory: "Lixo" },
+      { id: 4, name: "Sacolas Personalizadas", description: "Sacolas com impressão personalizada para comércios", category: "Sacolas", subcategory: "Personalizadas" }
     ]
   },
   {
@@ -66,9 +67,9 @@ const companiesData: CompanyData[] = [
     foundedYear: "1995",
     location: "Rio de Janeiro, RJ",
     products: [
-      { id: 1, name: "Sacolas em Caixa", description: "Sacolas plásticas organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa" },
-      { id: 2, name: "Sacolas em Fardo", description: "Sacolas em fardo para uso comercial em grande volume", category: "Sacolas em Fardo" },
-      { id: 3, name: "Saco de Lixo", description: "Sacos para lixo em diversos tamanhos e resistências", category: "Saco de Lixo" }
+      { id: 1, name: "Sacolas em Caixa", description: "Sacolas plásticas organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Práticas" },
+      { id: 2, name: "Sacolas em Fardo", description: "Sacolas em fardo para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Comerciais" },
+      { id: 3, name: "Saco de Lixo", description: "Sacos para lixo em diversos tamanhos e resistências", category: "Saco de Lixo", subcategory: "Residencial" }
     ]
   },
   {
@@ -80,10 +81,10 @@ const companiesData: CompanyData[] = [
     foundedYear: "2005",
     location: "Curitiba, PR",
     products: [
-      { id: 1, name: "Embalagens para Doces", description: "Embalagens transparentes para doces diversos", category: "Doces e Salgados" },
-      { id: 2, name: "Potes com Tampa", description: "Potes plásticos com tampas seguras para alimentos", category: "Potes" },
-      { id: 3, name: "Embalagem para Torta", description: "Embalagens redondas para tortas e bolos", category: "Confeitaria (Redondos e Fatia)" },
-      { id: 4, name: "Embalagem para Bolos", description: "Embalagens retangulares para bolos e tortas", category: "Confeitaria (Retangulares e Quadrados)" }
+      { id: 1, name: "Embalagens para Doces", description: "Embalagens transparentes para doces diversos", category: "Doces e Salgados", subcategory: "Doces" },
+      { id: 2, name: "Potes com Tampa", description: "Potes plásticos com tampas seguras para alimentos", category: "Potes", subcategory: "Com Tampa" },
+      { id: 3, name: "Embalagem para Torta", description: "Embalagens redondas para tortas e bolos", category: "Confeitaria (Redondos e Fatia)", subcategory: "Tortas" },
+      { id: 4, name: "Embalagem para Bolos", description: "Embalagens retangulares para bolos e tortas", category: "Confeitaria (Retangulares e Quadrados)", subcategory: "Bolos" }
     ]
   },
   {
@@ -95,10 +96,10 @@ const companiesData: CompanyData[] = [
     foundedYear: "1992",
     location: "Belo Horizonte, MG",
     products: [
-      { id: 1, name: "Copos PP", description: "Copos descartáveis em polipropileno", category: "PP" },
-      { id: 2, name: "Bandejas PS", description: "Bandejas em poliestireno para alimentos", category: "PS" },
-      { id: 3, name: "Embalagens Térmicas EPS", description: "Embalagens em EPS para alimentos quentes", category: "EPS" },
-      { id: 4, name: "Bandejas XPS", description: "Bandejas em XPS com alta resistência", category: "XPS" }
+      { id: 1, name: "Copos PP", description: "Copos descartáveis em polipropileno", category: "PP", subcategory: "Copos" },
+      { id: 2, name: "Bandejas PS", description: "Bandejas em poliestireno para alimentos", category: "PS", subcategory: "Bandejas" },
+      { id: 3, name: "Embalagens Térmicas EPS", description: "Embalagens em EPS para alimentos quentes", category: "EPS", subcategory: "Térmicas" },
+      { id: 4, name: "Bandejas XPS", description: "Bandejas em XPS com alta resistência", category: "XPS", subcategory: "Bandejas" }
     ]
   },
   {
@@ -110,10 +111,10 @@ const companiesData: CompanyData[] = [
     foundedYear: "1998",
     location: "Salvador, BA",
     products: [
-      { id: 1, name: "Talheres Premium", description: "Talheres resistentes com acabamento premium", category: "Professional" },
-      { id: 2, name: "Embalagens Food Service", description: "Embalagens especiais para alimentos", category: "Food" },
-      { id: 3, name: "Luvas e Máscaras", description: "Produtos descartáveis para área médica", category: "Medical" },
-      { id: 4, name: "Produtos Ecológicos", description: "Linha de produtos biodegradáveis", category: "Tellus" }
+      { id: 1, name: "Talheres Premium", description: "Talheres resistentes com acabamento premium", category: "Professional", subcategory: "Talheres" },
+      { id: 2, name: "Embalagens Food Service", description: "Embalagens especiais para alimentos", category: "Food", subcategory: "Serviços" },
+      { id: 3, name: "Luvas e Máscaras", description: "Produtos descartáveis para área médica", category: "Medical", subcategory: "Proteção" },
+      { id: 4, name: "Produtos Ecológicos", description: "Linha de produtos biodegradáveis", category: "Tellus", subcategory: "Ecológicos" }
     ]
   },
   {
@@ -125,16 +126,16 @@ const companiesData: CompanyData[] = [
     foundedYear: "2003",
     location: "Porto Alegre, RS",
     products: [
-      { id: 1, name: "Marmitex para Refeição", description: "Embalagens térmicas para refeições completas", category: "Refeição" },
-      { id: 2, name: "Marmitex Reforçada", description: "Embalagens com resistência extra", category: "Reforçada" },
-      { id: 3, name: "Linha Master", description: "Embalagens premium para restaurantes", category: "Master" },
-      { id: 4, name: "Kit Delivery", description: "Kit completo para entrega de refeições", category: "Kit Master" },
-      { id: 5, name: "Potes para Sobremesa", description: "Embalagens especiais para sobremesas", category: "Sobremesa" },
-      { id: 6, name: "Copos Térmicos", description: "Copos com isolamento para bebidas", category: "Copo" },
-      { id: 7, name: "Pratos Descartáveis", description: "Pratos resistentes para refeições", category: "Prato" },
-      { id: 8, name: "Mexedores", description: "Mexedores para bebidas quentes", category: "Mexedor" },
-      { id: 9, name: "Palitos", description: "Palitos para petiscos e aperitivos", category: "Palito" },
-      { id: 10, name: "Pazinhas", description: "Pazinhas para sobremesas e sorvetes", category: "Pazinha" }
+      { id: 1, name: "Marmitex para Refeição", description: "Embalagens térmicas para refeições completas", category: "Refeição", subcategory: "Marmitex" },
+      { id: 2, name: "Marmitex Reforçada", description: "Embalagens com resistência extra", category: "Reforçada", subcategory: "Premium" },
+      { id: 3, name: "Linha Master", description: "Embalagens premium para restaurantes", category: "Master", subcategory: "Restaurantes" },
+      { id: 4, name: "Kit Delivery", description: "Kit completo para entrega de refeições", category: "Kit Master", subcategory: "Delivery" },
+      { id: 5, name: "Potes para Sobremesa", description: "Embalagens especiais para sobremesas", category: "Sobremesa", subcategory: "Potes" },
+      { id: 6, name: "Copos Térmicos", description: "Copos com isolamento para bebidas", category: "Copo", subcategory: "Térmicos" },
+      { id: 7, name: "Pratos Descartáveis", description: "Pratos resistentes para refeições", category: "Prato", subcategory: "Descartáveis" },
+      { id: 8, name: "Mexedores", description: "Mexedores para bebidas quentes", category: "Mexedor", subcategory: "Bebidas" },
+      { id: 9, name: "Palitos", description: "Palitos para petiscos e aperitivos", category: "Palito", subcategory: "Petiscos" },
+      { id: 10, name: "Pazinhas", description: "Pazinhas para sobremesas e sorvetes", category: "Pazinha", subcategory: "Sorvetes" }
     ]
   },
   {
@@ -146,9 +147,9 @@ const companiesData: CompanyData[] = [
     foundedYear: "1997",
     location: "Florianópolis, SC",
     products: [
-      { id: 1, name: "Canudos Retos", description: "Canudos retos em diversas cores e tamanhos", category: "Canudos" },
-      { id: 2, name: "Canudos Flexíveis", description: "Canudos articulados para bebidas", category: "Canudos" },
-      { id: 3, name: "Canudos Biodegradáveis", description: "Canudos produzidos com material sustentável", category: "Canudos" }
+      { id: 1, name: "Canudos Retos", description: "Canudos retos em diversas cores e tamanhos", category: "Canudos", subcategory: "Retos" },
+      { id: 2, name: "Canudos Flexíveis", description: "Canudos articulados para bebidas", category: "Canudos", subcategory: "Flexíveis" },
+      { id: 3, name: "Canudos Biodegradáveis", description: "Canudos produzidos com material sustentável", category: "Canudos", subcategory: "Biodegradáveis" }
     ]
   },
   {
@@ -160,9 +161,9 @@ const companiesData: CompanyData[] = [
     foundedYear: "2007",
     location: "Fortaleza, CE",
     products: [
-      { id: 1, name: "Filme Stretch 10kg", description: "Filme plástico esticável para embalagem", category: "Filme Stretch" },
-      { id: 2, name: "Fita Pet para Amarração", description: "Fitas resistentes para fechamento de volumes", category: "Fita Pet" },
-      { id: 3, name: "Fita Adesiva Personalizada", description: "Fitas adesivas com opção de personalização", category: "Fita Adesiva" }
+      { id: 1, name: "Filme Stretch 10kg", description: "Filme plástico esticável para embalagem", category: "Filme Stretch", subcategory: "Industrial" },
+      { id: 2, name: "Fita Pet para Amarração", description: "Fitas resistentes para fechamento de volumes", category: "Fita Pet", subcategory: "Amarração" },
+      { id: 3, name: "Fita Adesiva Personalizada", description: "Fitas adesivas com opção de personalização", category: "Fita Adesiva", subcategory: "Personalizada" }
     ]
   },
   {
@@ -174,9 +175,9 @@ const companiesData: CompanyData[] = [
     foundedYear: "1990",
     location: "Guarulhos, SP",
     products: [
-      { id: 1, name: "Filme PVC Doméstico", description: "Filme PVC em rolos para uso doméstico", category: "Doméstica" },
-      { id: 2, name: "Filmes Plásticos Industriais", description: "Filmes para máquinas industriais de embalagem", category: "Industrial" },
-      { id: 3, name: "Sacos para Congelamento", description: "Sacos especiais para congelamento de alimentos", category: "Doméstica" }
+      { id: 1, name: "Filme PVC Doméstico", description: "Filme PVC em rolos para uso doméstico", category: "Doméstica", subcategory: "PVC" },
+      { id: 2, name: "Filmes Plásticos Industriais", description: "Filmes para máquinas industriais de embalagem", category: "Industrial", subcategory: "Plásticos" },
+      { id: 3, name: "Sacos para Congelamento", description: "Sacos especiais para congelamento de alimentos", category: "Doméstica", subcategory: "Congelamento" }
     ]
   },
   {
@@ -188,10 +189,10 @@ const companiesData: CompanyData[] = [
     foundedYear: "2010",
     location: "Recife, PE",
     products: [
-      { id: 1, name: "Bobinas Térmicas", description: "Bobinas para impressão térmica", category: "Bobinas" },
-      { id: 2, name: "Etiquetas Adesivas", description: "Etiquetas para identificação de produtos", category: "Etiquetas" },
-      { id: 3, name: "Rótulos Personalizados", description: "Rótulos com impressão personalizada", category: "Rótulos" },
-      { id: 4, name: "Ribbons de Impressão", description: "Suprimentos para impressoras térmicas", category: "Suprimentos" }
+      { id: 1, name: "Bobinas Térmicas", description: "Bobinas para impressão térmica", category: "Bobinas", subcategory: "Térmicas" },
+      { id: 2, name: "Etiquetas Adesivas", description: "Etiquetas para identificação de produtos", category: "Etiquetas", subcategory: "Adesivas" },
+      { id: 3, name: "Rótulos Personalizados", description: "Rótulos com impressão personalizada", category: "Rótulos", subcategory: "Personalizados" },
+      { id: 4, name: "Ribbons de Impressão", description: "Suprimentos para impressoras térmicas", category: "Suprimentos", subcategory: "Ribbons" }
     ]
   }
 ];
@@ -199,6 +200,7 @@ const companiesData: CompanyData[] = [
 const Company = () => {
   const { id } = useParams<{ id: string }>();
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
+  const [selectedSubcategory, setSelectedSubcategory] = useState<string>("all");
 
   const company = useMemo(() => companiesData.find((c) => c.id === id), [id]);
   
@@ -220,9 +222,24 @@ const Company = () => {
     new Set(company.products.map((product) => product.category))
   );
 
-  const filteredProducts = company.products.filter(
-    (product) => selectedCategory === "all" || product.category === selectedCategory
+  const subcategories = Array.from(
+    new Set(
+      company.products
+        .filter(product => selectedCategory === "all" || product.category === selectedCategory)
+        .map(product => product.subcategory)
+    )
   );
+
+  const filteredProducts = company.products.filter(
+    (product) => 
+      (selectedCategory === "all" || product.category === selectedCategory) &&
+      (selectedSubcategory === "all" || product.subcategory === selectedSubcategory)
+  );
+
+  const handleCategoryChange = (category: string) => {
+    setSelectedCategory(category);
+    setSelectedSubcategory("all"); // Reset subcategory when category changes
+  };
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -278,10 +295,45 @@ const Company = () => {
               Produtos da {company.name}
             </h2>
             
+            {/* Category Filter */}
             <ProductFilter 
               categories={categories} 
-              onCategoryChange={setSelectedCategory} 
+              onCategoryChange={handleCategoryChange} 
             />
+            
+            {/* Subcategory Filter */}
+            {subcategories.length > 0 && (
+              <div className="w-full flex justify-center my-6">
+                <div className="w-full max-w-3xl">
+                  <h3 className="text-sm font-medium text-brand-gray mb-2 text-center">Subcategorias</h3>
+                  <div className="flex flex-wrap justify-center gap-2">
+                    <button
+                      onClick={() => setSelectedSubcategory("all")}
+                      className={`px-3 py-1 rounded-full text-sm ${
+                        selectedSubcategory === "all"
+                          ? "bg-brand-blue text-white"
+                          : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                      }`}
+                    >
+                      Todas
+                    </button>
+                    {subcategories.map((subcategory) => (
+                      <button
+                        key={subcategory}
+                        onClick={() => setSelectedSubcategory(subcategory)}
+                        className={`px-3 py-1 rounded-full text-sm ${
+                          selectedSubcategory === subcategory
+                            ? "bg-brand-blue text-white"
+                            : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                        }`}
+                      >
+                        {subcategory}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            )}
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
               {filteredProducts.map((product) => (
@@ -301,9 +353,12 @@ const Company = () => {
                     )}
                   </div>
                   <CardContent className="p-6">
-                    <div className="mb-2">
+                    <div className="mb-2 flex gap-2 flex-wrap">
                       <span className="inline-block bg-brand-blue/10 text-brand-blue text-xs px-2 py-1 rounded-full">
                         {product.category}
+                      </span>
+                      <span className="inline-block bg-brand-orange/10 text-brand-orange text-xs px-2 py-1 rounded-full">
+                        {product.subcategory}
                       </span>
                     </div>
                     <h3 className="font-bold text-lg text-brand-gray">{product.name}</h3>
