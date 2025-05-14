@@ -1,10 +1,17 @@
+
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
+import { useLocation, useNavigate } from "react-router-dom";
+
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
+  const isHomePage = location.pathname === "/";
+  
   useEffect(() => {
     const handleScroll = () => {
       const isScrolled = window.scrollY > 10;
@@ -17,6 +24,7 @@ const Header = () => {
       document.removeEventListener("scroll", handleScroll);
     };
   }, [scrolled]);
+
   const navLinks = [{
     name: "Início",
     to: "home"
@@ -33,21 +41,49 @@ const Header = () => {
     name: "Contato",
     to: "contact"
   }];
+
+  const handleNavigation = (sectionId: string) => {
+    if (isHomePage) {
+      // Use react-scroll for smooth scrolling on home page
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    } else {
+      // Navigate to home page with section hash
+      navigate(`/#${sectionId}`);
+    }
+    if (isOpen) {
+      setIsOpen(false);
+    }
+  };
+
   return <header className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? "bg-white shadow-md py-2" : "bg-transparent py-4"}`}>
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         <div className="flex items-center">
-          <h1 className="text-2xl font-bold font-poppins text-brand-darkBlue">Pavei Representações</h1>
+          <h1 
+            className="text-2xl font-bold font-poppins text-brand-darkBlue cursor-pointer"
+            onClick={() => navigate('/')}
+          >
+            Pavei Representações
+          </h1>
         </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          {navLinks.map(link => <Link key={link.name} to={link.to} spy={true} smooth={true} offset={-80} duration={500} className="font-inter text-gray-700 hover:text-brand-blue font-medium cursor-pointer transition-colors">
+          {navLinks.map(link => (
+            <button
+              key={link.name}
+              onClick={() => handleNavigation(link.to)}
+              className="font-inter text-gray-700 hover:text-brand-blue font-medium cursor-pointer transition-colors"
+            >
               {link.name}
-            </Link>)}
+            </button>
+          ))}
           <Button className="bg-brand-blue hover:bg-brand-darkBlue text-white">
-            <Link to="contact" spy={true} smooth={true} offset={-80} duration={500}>
+            <button onClick={() => handleNavigation("contact")}>
               Fale Conosco
-            </Link>
+            </button>
           </Button>
         </nav>
 
@@ -62,16 +98,26 @@ const Header = () => {
       {/* Mobile Menu */}
       {isOpen && <div className="md:hidden bg-white shadow-lg absolute top-full left-0 right-0 py-4 px-4">
           <nav className="flex flex-col space-y-4">
-            {navLinks.map(link => <Link key={link.name} to={link.to} spy={true} smooth={true} offset={-80} duration={500} className="font-inter text-gray-700 hover:text-brand-blue px-4 py-2 rounded-md transition-colors" onClick={() => setIsOpen(false)}>
+            {navLinks.map(link => (
+              <button
+                key={link.name}
+                onClick={() => handleNavigation(link.to)}
+                className="font-inter text-gray-700 hover:text-brand-blue px-4 py-2 rounded-md transition-colors text-left"
+              >
                 {link.name}
-              </Link>)}
+              </button>
+            ))}
             <Button className="bg-brand-blue hover:bg-brand-darkBlue text-white w-full">
-              <Link to="contact" spy={true} smooth={true} offset={-80} duration={500} onClick={() => setIsOpen(false)} className="w-full">
+              <button
+                onClick={() => handleNavigation("contact")}
+                className="w-full"
+              >
                 Fale Conosco
-              </Link>
+              </button>
             </Button>
           </nav>
         </div>}
     </header>;
 };
+
 export default Header;
