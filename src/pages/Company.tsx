@@ -65,9 +65,9 @@ const companiesData: CompanyData[] = [
     foundedYear: "1995",
     location: "Rio de Janeiro, RJ",
     products: [
-      { id: 1, name: "Sacolas em Caixa", description: "Sacolas plásticas organizadas em caixa para fácil armazenamento e uso", category: "Sacolas" },
-      { id: 2, name: "Sacolas em Fardo", description: "Sacolas em fardo para uso comercial em grande volume", category: "Sacolas" },
-      { id: 3, name: "Saco de Lixo", description: "Sacos para lixo em diversos tamanhos e resistências", category: "Sacos" }
+      { id: 1, name: "Sacolas em Caixa", description: "Sacolas plásticas organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa" },
+      { id: 2, name: "Sacolas em Fardo", description: "Sacolas em fardo para uso comercial em grande volume", category: "Sacolas em Fardo" },
+      { id: 3, name: "Saco de Lixo", description: "Sacos para lixo em diversos tamanhos e resistências", category: "Saco de Lixo" }
     ]
   },
   {
