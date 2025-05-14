@@ -1,4 +1,3 @@
-
 import { useParams } from "react-router-dom";
 import { useState, useMemo } from "react";
 import Header from "../components/Header";
@@ -51,9 +50,12 @@ const companiesData: CompanyData[] = [
     foundedYear: "2000",
     location: "Orleans, SC",
     products: [
-      { id: 1, name: "Copos Descartáveis 200ml", description: "Pacote com 100 unidades de copos descartáveis resistentes", category: "Copos" },
-      { id: 2, name: "Canudos Biodegradáveis", description: "Embalagem com 50 unidades de canudos ecológicos", category: "Canudos" },
-      { id: 3, name: "Sacolas Personalizadas", description: "Sacolas personalizadas para comércios", category: "Sacolas" }
+      { id: 1, name: "Bobinas Picotadas", description: "Bobinas de sacolas plásticas picotadas para facilitar a separação", category: "Bobinas" },
+      { id: 2, name: "Bobinas Lisas", description: "Bobinas lisas para embalagem de produtos", category: "Bobinas" },
+      { id: 3, name: "Sacos para Lixo", description: "Sacos reforçados para coleta de lixo em diversos tamanhos", category: "Sacos" },
+      { id: 4, name: "Lonas Plásticas", description: "Lonas plásticas para proteção de materiais", category: "Lonas" },
+      { id: 5, name: "Embalagens para Pães", description: "Embalagens personalizadas para pães e produtos de panificação", category: "Embalagens" },
+      { id: 6, name: "Sacolas Personalizadas", description: "Sacolas com impressão personalizada para comércios", category: "Sacolas" }
     ]
   },
   {
