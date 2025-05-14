@@ -49,7 +49,7 @@ const companiesData: CompanyData[] = [
     link: "https://www.libreplast.com.br/",
     description: "Libreplast é uma empresa brasileira especializada na produção de embalagens plásticas de alta qualidade para diversos segmentos. Com mais de 20 anos no mercado, a empresa se destaca pela inovação e compromisso com a sustentabilidade em seus processos produtivos.",
     foundedYear: "2000",
-    location: "São Paulo, SP",
+    location: "Orleans, SC",
     products: [
       { id: 1, name: "Copos Descartáveis 200ml", description: "Pacote com 100 unidades de copos descartáveis resistentes", category: "Copos" },
       { id: 2, name: "Canudos Biodegradáveis", description: "Embalagem com 50 unidades de canudos ecológicos", category: "Canudos" },
