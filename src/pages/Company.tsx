@@ -1,3 +1,4 @@
+
 import { useParams } from "react-router-dom";
 import { useState, useMemo } from "react";
 import Header from "../components/Header";
@@ -79,9 +80,10 @@ const companiesData: CompanyData[] = [
     foundedYear: "2005",
     location: "Curitiba, PR",
     products: [
-      { id: 1, name: "Copos Térmicos", description: "Copos com isolamento térmico para bebidas quentes", category: "Copos" },
-      { id: 2, name: "Potes para Sobremesa", description: "Potes transparentes com tampa para doces e sobremesas", category: "Potes" },
-      { id: 3, name: "Toucas Descartáveis", description: "Pacote com 50 toucas para cozinha profissional", category: "Toucas" }
+      { id: 1, name: "Embalagens para Doces", description: "Embalagens transparentes para doces diversos", category: "Doces e Salgados" },
+      { id: 2, name: "Potes com Tampa", description: "Potes plásticos com tampas seguras para alimentos", category: "Potes" },
+      { id: 3, name: "Embalagem para Torta", description: "Embalagens redondas para tortas e bolos", category: "Confeitaria (Redondos e Fatia)" },
+      { id: 4, name: "Embalagem para Bolos", description: "Embalagens retangulares para bolos e tortas", category: "Confeitaria (Retangulares e Quadrados)" }
     ]
   },
   {
@@ -93,9 +95,10 @@ const companiesData: CompanyData[] = [
     foundedYear: "1992",
     location: "Belo Horizonte, MG",
     products: [
-      { id: 1, name: "Bandejas Compartimentadas", description: "Bandejas com divisórias para refeições completas", category: "Marmitas" },
-      { id: 2, name: "Garrafas Squeeze", description: "Garrafas plásticas para bebidas", category: "Copos" },
-      { id: 3, name: "Panos Descartáveis", description: "Panos multiuso em rolo com 50 unidades", category: "Panos" }
+      { id: 1, name: "Copos PP", description: "Copos descartáveis em polipropileno", category: "PP" },
+      { id: 2, name: "Bandejas PS", description: "Bandejas em poliestireno para alimentos", category: "PS" },
+      { id: 3, name: "Embalagens Térmicas EPS", description: "Embalagens em EPS para alimentos quentes", category: "EPS" },
+      { id: 4, name: "Bandejas XPS", description: "Bandejas em XPS com alta resistência", category: "XPS" }
     ]
   },
   {
@@ -107,9 +110,10 @@ const companiesData: CompanyData[] = [
     foundedYear: "1998",
     location: "Salvador, BA",
     products: [
-      { id: 1, name: "Talheres Premium", description: "Talheres resistentes com acabamento premium", category: "Talheres" },
-      { id: 2, name: "Copos Personalizáveis", description: "Copos com opção de personalização para eventos", category: "Copos" },
-      { id: 3, name: "Sacolas Biodegradáveis", description: "Sacolas ecológicas de alta resistência", category: "Sacolas" }
+      { id: 1, name: "Talheres Premium", description: "Talheres resistentes com acabamento premium", category: "Professional" },
+      { id: 2, name: "Embalagens Food Service", description: "Embalagens especiais para alimentos", category: "Food" },
+      { id: 3, name: "Luvas e Máscaras", description: "Produtos descartáveis para área médica", category: "Medical" },
+      { id: 4, name: "Produtos Ecológicos", description: "Linha de produtos biodegradáveis", category: "Tellus" }
     ]
   },
   {
@@ -121,9 +125,16 @@ const companiesData: CompanyData[] = [
     foundedYear: "2003",
     location: "Porto Alegre, RS",
     products: [
-      { id: 1, name: "Embalagens Isotérmicas", description: "Caixas térmicas para transporte de alimentos", category: "Embalagens térmicas" },
-      { id: 2, name: "Bolsas Térmicas", description: "Bolsas com isolamento para entregas", category: "Embalagens térmicas" },
-      { id: 3, name: "Luvas Térmicas", description: "Luvas para manuseio de alimentos quentes", category: "Luvas" }
+      { id: 1, name: "Marmitex para Refeição", description: "Embalagens térmicas para refeições completas", category: "Refeição" },
+      { id: 2, name: "Marmitex Reforçada", description: "Embalagens com resistência extra", category: "Reforçada" },
+      { id: 3, name: "Linha Master", description: "Embalagens premium para restaurantes", category: "Master" },
+      { id: 4, name: "Kit Delivery", description: "Kit completo para entrega de refeições", category: "Kit Master" },
+      { id: 5, name: "Potes para Sobremesa", description: "Embalagens especiais para sobremesas", category: "Sobremesa" },
+      { id: 6, name: "Copos Térmicos", description: "Copos com isolamento para bebidas", category: "Copo" },
+      { id: 7, name: "Pratos Descartáveis", description: "Pratos resistentes para refeições", category: "Prato" },
+      { id: 8, name: "Mexedores", description: "Mexedores para bebidas quentes", category: "Mexedor" },
+      { id: 9, name: "Palitos", description: "Palitos para petiscos e aperitivos", category: "Palito" },
+      { id: 10, name: "Pazinhas", description: "Pazinhas para sobremesas e sorvetes", category: "Pazinha" }
     ]
   },
   {
@@ -135,9 +146,9 @@ const companiesData: CompanyData[] = [
     foundedYear: "1997",
     location: "Florianópolis, SC",
     products: [
-      { id: 1, name: "Potes Herméticos", description: "Potes com fechamento hermético para conservação de alimentos", category: "Potes" },
-      { id: 2, name: "Canudos Coloridos", description: "Canudos em diversas cores para festas e eventos", category: "Canudos" },
-      { id: 3, name: "Toucas Sanfonadas", description: "Toucas com elástico reforçado para cozinhas", category: "Toucas" }
+      { id: 1, name: "Canudos Retos", description: "Canudos retos em diversas cores e tamanhos", category: "Canudos" },
+      { id: 2, name: "Canudos Flexíveis", description: "Canudos articulados para bebidas", category: "Canudos" },
+      { id: 3, name: "Canudos Biodegradáveis", description: "Canudos produzidos com material sustentável", category: "Canudos" }
     ]
   },
   {
@@ -149,9 +160,9 @@ const companiesData: CompanyData[] = [
     foundedYear: "2007",
     location: "Fortaleza, CE",
     products: [
-      { id: 1, name: "Caixas para Pizza", description: "Caixas térmicas especiais para entrega de pizzas", category: "Embalagens térmicas" },
-      { id: 2, name: "Sacos para Delivery", description: "Sacos reforçados para transporte de alimentos", category: "Sacolas" },
-      { id: 3, name: "Marmitas com Divisória", description: "Marmitas com separação para diferentes alimentos", category: "Marmitas" }
+      { id: 1, name: "Filme Stretch 10kg", description: "Filme plástico esticável para embalagem", category: "Filme Stretch" },
+      { id: 2, name: "Fita Pet para Amarração", description: "Fitas resistentes para fechamento de volumes", category: "Fita Pet" },
+      { id: 3, name: "Fita Adesiva Personalizada", description: "Fitas adesivas com opção de personalização", category: "Fita Adesiva" }
     ]
   },
   {
@@ -163,9 +174,9 @@ const companiesData: CompanyData[] = [
     foundedYear: "1990",
     location: "Guarulhos, SP",
     products: [
-      { id: 1, name: "Filme PVC", description: "Rolos de filme PVC para conservação de alimentos", category: "Embalagens" },
-      { id: 2, name: "Sacos a Vácuo", description: "Embalagens para conservação a vácuo", category: "Sacolas" },
-      { id: 3, name: "Luvas Nitrílicas", description: "Luvas de alta resistência para manipulação segura", category: "Luvas" }
+      { id: 1, name: "Filme PVC Doméstico", description: "Filme PVC em rolos para uso doméstico", category: "Doméstica" },
+      { id: 2, name: "Filmes Plásticos Industriais", description: "Filmes para máquinas industriais de embalagem", category: "Industrial" },
+      { id: 3, name: "Sacos para Congelamento", description: "Sacos especiais para congelamento de alimentos", category: "Doméstica" }
     ]
   },
   {
@@ -177,9 +188,10 @@ const companiesData: CompanyData[] = [
     foundedYear: "2010",
     location: "Recife, PE",
     products: [
-      { id: 1, name: "Copos Térmicos Premium", description: "Copos com dupla camada para isolamento térmico", category: "Copos" },
-      { id: 2, name: "Marmitas Multi-compartimento", description: "Marmitas térmicas com várias divisórias", category: "Marmitas" },
-      { id: 3, name: "Talheres Ecológicos", description: "Talheres fabricados com material sustentável", category: "Talheres" }
+      { id: 1, name: "Bobinas Térmicas", description: "Bobinas para impressão térmica", category: "Bobinas" },
+      { id: 2, name: "Etiquetas Adesivas", description: "Etiquetas para identificação de produtos", category: "Etiquetas" },
+      { id: 3, name: "Rótulos Personalizados", description: "Rótulos com impressão personalizada", category: "Rótulos" },
+      { id: 4, name: "Ribbons de Impressão", description: "Suprimentos para impressoras térmicas", category: "Suprimentos" }
     ]
   }
 ];
