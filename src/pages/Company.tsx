@@ -51,10 +51,15 @@ const companiesData: CompanyData[] = [
     foundedYear: "2000",
     location: "Orleans, SC",
     products: [
-      { id: 1, name: "Bobinas Picotadas", description: "Bobinas de sacolas plásticas picotadas para facilitar a separação", category: "Bobinas", subcategory: "Picotadas" },
-      { id: 2, name: "Bobinas Lisas", description: "Bobinas lisas para embalagem de produtos", category: "Bobinas", subcategory: "Lisas" },
-      { id: 3, name: "Sacos para Lixo", description: "Sacos reforçados para coleta de lixo em diversos tamanhos", category: "Sacos", subcategory: "Lixo" },
-      { id: 4, name: "Sacolas Personalizadas", description: "Sacolas com impressão personalizada para comércios", category: "Sacolas", subcategory: "Personalizadas" }
+      { id: 1, name: "Sacolas em Caixa Pequena", description: "Sacolas plásticas pequenas em caixas para uso comercial", category: "Sacolas em Caixa", subcategory: "Pequena" },
+      { id: 2, name: "Sacolas em Caixa Média", description: "Sacolas plásticas médias em caixas para uso comercial", category: "Sacolas em Caixa", subcategory: "Média" },
+      { id: 3, name: "Sacolas em Caixa Grande", description: "Sacolas plásticas grandes em caixas para uso comercial", category: "Sacolas em Caixa", subcategory: "Grande" },
+      { id: 4, name: "Sacolas em Fardo Pequeno", description: "Sacolas em fardo pequeno para uso comercial", category: "Sacolas em Fardo", subcategory: "Pequeno" },
+      { id: 5, name: "Sacolas em Fardo Grande", description: "Sacolas em fardo grande para uso comercial", category: "Sacolas em Fardo", subcategory: "Grande" },
+      { id: 6, name: "Bobinas Picotadas", description: "Bobinas de sacolas plásticas picotadas para facilitar a separação", category: "Bobinas", subcategory: "Picotadas" },
+      { id: 7, name: "Bobinas Lisas", description: "Bobinas lisas para embalagem de produtos", category: "Bobinas", subcategory: "Lisas" },
+      { id: 8, name: "Sacos para Lixo", description: "Sacos reforçados para coleta de lixo em diversos tamanhos", category: "Sacos", subcategory: "Lixo" },
+      { id: 9, name: "Sacos Transparentes", description: "Sacos transparentes para embalagem de produtos", category: "Sacos", subcategory: "Transparentes" }
     ]
   },
   {
