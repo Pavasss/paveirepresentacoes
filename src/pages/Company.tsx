@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 import WhatsAppButton from "../components/WhatsAppButton";
 import ProductFilter from "../components/ProductFilter";
 import { Card, CardContent } from "@/components/ui/card";
-import { Building2, ExternalLink } from "lucide-react";
+import { Building2, ExternalLink, Package } from "lucide-react";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Button } from "@/components/ui/button";
 
