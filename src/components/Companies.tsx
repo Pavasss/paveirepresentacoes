@@ -1,6 +1,7 @@
 
 import { Card, CardContent } from "./ui/card";
 import { Building2, ExternalLink } from "lucide-react";
+import { Link } from "react-router-dom";
 import LibreplastLogo from "/lovable-uploads/e2adbeea-74fd-47ed-81d5-5f38e7b22a1e.png";
 import LiplastLogo from "/lovable-uploads/4728399f-477e-431b-aa72-21744815b3e7.png";
 import PPlastLogo from "/lovable-uploads/77d5dedc-0b4e-4553-bf55-b95f214978e6.png";
@@ -14,16 +15,16 @@ import ThermoflexoLogo from "/lovable-uploads/87a59662-6473-4aec-9e38-37ecf067db
 
 const Companies = () => {
   const companies = [
-    { name: "Libreplast", logo: LibreplastLogo, link: "https://www.libreplast.com.br/" },
-    { name: "Liplast", logo: LiplastLogo, link: "https://www.liplast.com.br/" },
-    { name: "Totalplast", logo: TotalplastLogo, link: "https://www.totalplast.com.br/" },
-    { name: "Vabene", logo: VabeneLogo, link: "https://vabene.com.br/" },
-    { name: "Plastsul", logo: PlastsulLogo, link: "https://plastsul.com.br/" },
-    { name: "P.Plast", logo: PPlastLogo, link: "https://pplast.com.br/" },
-    { name: "Magitus", logo: MagitusLogo, link: "https://www.magitus.com.br/" },
-    { name: "Magipack", logo: MagipackLogo, link: "https://www.magipack.com.br/" },
-    { name: "Guarufilme", logo: GuarufilmeLogo, link: "https://www.guarufilme.com.br/novosite/" },
-    { name: "Thermoflexo", logo: ThermoflexoLogo, link: "https://thermoflexo.com.br/" }
+    { id: "libreplast", name: "Libreplast", logo: LibreplastLogo, link: "https://www.libreplast.com.br/" },
+    { id: "liplast", name: "Liplast", logo: LiplastLogo, link: "https://www.liplast.com.br/" },
+    { id: "totalplast", name: "Totalplast", logo: TotalplastLogo, link: "https://www.totalplast.com.br/" },
+    { id: "vabene", name: "Vabene", logo: VabeneLogo, link: "https://vabene.com.br/" },
+    { id: "plastsul", name: "Plastsul", logo: PlastsulLogo, link: "https://plastsul.com.br/" },
+    { id: "pplast", name: "P.Plast", logo: PPlastLogo, link: "https://pplast.com.br/" },
+    { id: "magitus", name: "Magitus", logo: MagitusLogo, link: "https://www.magitus.com.br/" },
+    { id: "magipack", name: "Magipack", logo: MagipackLogo, link: "https://www.magipack.com.br/" },
+    { id: "guarufilme", name: "Guarufilme", logo: GuarufilmeLogo, link: "https://www.guarufilme.com.br/novosite/" },
+    { id: "thermoflexo", name: "Thermoflexo", logo: ThermoflexoLogo, link: "https://thermoflexo.com.br/" }
   ];
 
   return (
@@ -43,32 +44,27 @@ const Companies = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {companies.map((company, index) => (
             <div key={index} className="transform transition-all hover:scale-105 duration-300">
-              <Card className="h-full bg-white border border-gray-200 hover:shadow-md hover:border-brand-blue transition-all">
-                <CardContent className="p-6 flex flex-col items-center justify-center text-center h-full">
-                  {company.logo ? (
-                    <img 
-                      src={company.logo} 
-                      alt={`${company.name} logo`} 
-                      className="max-h-20 max-w-full object-contain mb-3" 
-                    />
-                  ) : (
-                    <Building2 className="h-10 w-10 text-brand-blue mb-3" />
-                  )}
-                  <h3 className="text-lg font-bold font-poppins text-brand-gray">
-                    {company.name}
-                  </h3>
-                  {company.link && (
-                    <a
-                      href={company.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mt-2 flex items-center text-brand-blue hover:text-brand-darkBlue text-sm transition-colors"
-                    >
-                      Visitar site <ExternalLink size={14} className="ml-1" />
-                    </a>
-                  )}
-                </CardContent>
-              </Card>
+              <Link to={`/empresa/${company.id}`}>
+                <Card className="h-full bg-white border border-gray-200 hover:shadow-md hover:border-brand-blue transition-all">
+                  <CardContent className="p-6 flex flex-col items-center justify-center text-center h-full">
+                    {company.logo ? (
+                      <img 
+                        src={company.logo} 
+                        alt={`${company.name} logo`} 
+                        className="max-h-20 max-w-full object-contain mb-3" 
+                      />
+                    ) : (
+                      <Building2 className="h-10 w-10 text-brand-blue mb-3" />
+                    )}
+                    <h3 className="text-lg font-bold font-poppins text-brand-gray">
+                      {company.name}
+                    </h3>
+                    <div className="mt-2 flex items-center text-brand-blue hover:text-brand-darkBlue text-sm transition-colors">
+                      Ver detalhes
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
             </div>
           ))}
         </div>
