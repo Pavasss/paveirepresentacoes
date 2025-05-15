@@ -1,4 +1,3 @@
-
 import { useParams } from "react-router-dom";
 import { useState, useMemo } from "react";
 import Header from "../components/Header";
@@ -9,6 +8,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Building2, ExternalLink, Package } from "lucide-react";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Button } from "@/components/ui/button";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 
 // Company data
 import LibreplastLogo from "/lovable-uploads/e2adbeea-74fd-47ed-81d5-5f38e7b22a1e.png";
@@ -30,6 +30,7 @@ type Product = {
   category: string;
   subcategory: string;
   imageUrl?: string;
+  images?: string[]; // Nova propriedade para suportar múltiplas imagens
 };
 
 type CompanyData = {
@@ -94,7 +95,15 @@ const companiesData: CompanyData[] = [
     foundedYear: "1995",
     location: "Rio de Janeiro, RJ",
     products: [
-      { id: 1, name: "Sacolas Multicolor", description: "Sacola 30x40 - c/ 2Kg\nSacola 30x45 - c/ 2Kg\nSacola 40x50 - c/ 3Kg\nSacola 47x57 - c/ 4Kg", category: "Sacolas em Caixa", subcategory: "Multicolor", imageUrl: SacolaMulticolorImage },
+      { 
+        id: 1, 
+        name: "Sacolas Multicolor", 
+        description: "Sacola 30x40 - c/ 2Kg\nSacola 30x45 - c/ 2Kg\nSacola 40x50 - c/ 3Kg\nSacola 47x57 - c/ 4Kg", 
+        category: "Sacolas em Caixa", 
+        subcategory: "Multicolor", 
+        imageUrl: SacolaMulticolorImage,
+        images: [SacolaMulticolorImage, SacolaMulticolorImage, SacolaMulticolorImage]
+      },
       { id: 2, name: "Sacolas em Caixa Verde", description: "Sacolas plásticas verdes organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Verde" },
       { id: 3, name: "Sacolas em Caixa Azul", description: "Sacolas plásticas azuis organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Azul" },
       { id: 4, name: "Sacolas em Caixa Amarela", description: "Sacolas plásticas amarelas organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Amarela" },
@@ -390,15 +399,31 @@ const Company = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
               {filteredProducts.map((product) => (
                 <Card key={product.id} className="overflow-hidden hover:shadow-lg transition-shadow">
-                  <div className="bg-gray-100 h-48 flex items-center justify-center">
-                    {product.imageUrl ? (
+                  <div className="bg-gray-100 h-48">
+                    {product.images && product.images.length > 0 ? (
+                      <Carousel className="w-full h-full">
+                        <CarouselContent className="h-full">
+                          {product.images.map((image, index) => (
+                            <CarouselItem key={index} className="h-full flex items-center justify-center">
+                              <img 
+                                src={image} 
+                                alt={`${product.name} - imagem ${index + 1}`} 
+                                className="h-full w-full object-contain p-2" 
+                              />
+                            </CarouselItem>
+                          ))}
+                        </CarouselContent>
+                        <CarouselPrevious className="-left-2" />
+                        <CarouselNext className="-right-2" />
+                      </Carousel>
+                    ) : product.imageUrl ? (
                       <img 
                         src={product.imageUrl} 
                         alt={product.name} 
                         className="h-full w-full object-contain p-2" 
                       />
                     ) : (
-                      <div className="flex flex-col items-center justify-center text-gray-400">
+                      <div className="flex flex-col items-center justify-center text-gray-400 h-full">
                         <Package size={48} />
                         <span className="mt-2 text-sm">Imagem não disponível</span>
                       </div>
