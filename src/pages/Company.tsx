@@ -1,3 +1,4 @@
+
 import { useParams } from "react-router-dom";
 import { useState, useMemo } from "react";
 import Header from "../components/Header";
@@ -20,6 +21,7 @@ import PlastsulLogo from "/lovable-uploads/efd0f605-d8f6-47bd-8f0d-418d1591dfbd.
 import MagipackLogo from "/lovable-uploads/9a7a52f1-0ebf-492c-82d4-e04fe7cbb30a.png";
 import GuarufilmeLogo from "/lovable-uploads/852cd3a3-5bd3-4f6c-b8e0-28314c83f5eb.png";
 import ThermoflexoLogo from "/lovable-uploads/87a59662-6473-4aec-9e38-37ecf067dbe7.png";
+import SacolaMulticolorImage from "/lovable-uploads/72025acd-8514-49d7-9071-9e35c0059efb.png";
 
 type Product = {
   id: number;
@@ -92,7 +94,7 @@ const companiesData: CompanyData[] = [
     foundedYear: "1995",
     location: "Rio de Janeiro, RJ",
     products: [
-      { id: 1, name: "Sacolas Multicolor", description: "Sacola 30x40 - c/ 2Kg\nSacola 30x45 - c/ 2Kg\nSacola 40x50 - c/ 3Kg\nSacola 47x57 - c/ 4Kg", category: "Sacolas em Caixa", subcategory: "Multicolor" },
+      { id: 1, name: "Sacolas Multicolor", description: "Sacola 30x40 - c/ 2Kg\nSacola 30x45 - c/ 2Kg\nSacola 40x50 - c/ 3Kg\nSacola 47x57 - c/ 4Kg", category: "Sacolas em Caixa", subcategory: "Multicolor", imageUrl: SacolaMulticolorImage },
       { id: 2, name: "Sacolas em Caixa Verde", description: "Sacolas plásticas verdes organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Verde" },
       { id: 3, name: "Sacolas em Caixa Azul", description: "Sacolas plásticas azuis organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Azul" },
       { id: 4, name: "Sacolas em Caixa Amarela", description: "Sacolas plásticas amarelas organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Amarela" },
