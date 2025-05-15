@@ -1,6 +1,6 @@
 
 import { Card, CardContent } from "./ui/card";
-import { Building2, ExternalLink } from "lucide-react";
+import { Building2 } from "lucide-react";
 import { Link } from "react-router-dom";
 import LibreplastLogo from "/lovable-uploads/e2adbeea-74fd-47ed-81d5-5f38e7b22a1e.png";
 import LiplastLogo from "/lovable-uploads/4728399f-477e-431b-aa72-21744815b3e7.png";
