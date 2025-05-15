@@ -1,31 +1,16 @@
 
 import { Card, CardContent } from "./ui/card";
-import { Building2, ExternalLink } from "lucide-react";
+import { Building2 } from "lucide-react";
 import { Link } from "react-router-dom";
-import LibreplastLogo from "/lovable-uploads/e2adbeea-74fd-47ed-81d5-5f38e7b22a1e.png";
-import LiplastLogo from "/lovable-uploads/4728399f-477e-431b-aa72-21744815b3e7.png";
-import PPlastLogo from "/lovable-uploads/77d5dedc-0b4e-4553-bf55-b95f214978e6.png";
-import TotalplastLogo from "/lovable-uploads/cff86a8a-2590-41e6-af53-6372835c2641.png";
-import VabeneLogo from "/lovable-uploads/ce391618-da4c-437b-8b32-3e4946090153.png";
-import MagitusLogo from "/lovable-uploads/b950299d-8d72-4465-9a9a-64145b434959.png";
-import PlastsulLogo from "/lovable-uploads/efd0f605-d8f6-47bd-8f0d-418d1591dfbd.png";
-import MagipackLogo from "/lovable-uploads/9a7a52f1-0ebf-492c-82d4-e04fe7cbb30a.png";
-import GuarufilmeLogo from "/lovable-uploads/852cd3a3-5bd3-4f6c-b8e0-28314c83f5eb.png";
-import ThermoflexoLogo from "/lovable-uploads/87a59662-6473-4aec-9e38-37ecf067dbe7.png";
+import { companiesData } from "../data/companies";
 
 const Companies = () => {
-  const companies = [
-    { id: "libreplast", name: "Libreplast", logo: LibreplastLogo, link: "https://www.libreplast.com.br/" },
-    { id: "liplast", name: "Liplast", logo: LiplastLogo, link: "https://www.liplast.com.br/" },
-    { id: "totalplast", name: "Totalplast", logo: TotalplastLogo, link: "https://www.totalplast.com.br/" },
-    { id: "vabene", name: "Vabene", logo: VabeneLogo, link: "https://vabene.com.br/" },
-    { id: "plastsul", name: "Plastsul", logo: PlastsulLogo, link: "https://plastsul.com.br/" },
-    { id: "pplast", name: "P.Plast", logo: PPlastLogo, link: "https://pplast.com.br/" },
-    { id: "magitus", name: "Magitus", logo: MagitusLogo, link: "https://www.magitus.com.br/" },
-    { id: "magipack", name: "Magipack", logo: MagipackLogo, link: "https://www.magipack.com.br/" },
-    { id: "guarufilme", name: "Guarufilme", logo: GuarufilmeLogo, link: "https://www.guarufilme.com.br/novosite/" },
-    { id: "thermoflexo", name: "Thermoflexo", logo: ThermoflexoLogo, link: "https://thermoflexo.com.br/" }
-  ];
+  const companies = companiesData.map(company => ({
+    id: company.id,
+    name: company.name,
+    logo: company.logo,
+    link: company.link
+  }));
 
   return (
     <section id="companies" className="py-20 bg-white">
