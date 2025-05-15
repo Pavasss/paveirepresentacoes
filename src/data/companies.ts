@@ -17,6 +17,7 @@ import SacolaCremeImage from "/lovable-uploads/60479c57-352f-44ef-991c-453ed1d3b
 import SacolaCremeEmFardoImage from "/lovable-uploads/b4640d7f-7933-4095-834e-f68aaba1d123.png";
 import SacolaAzulEmFardoImage from "/lovable-uploads/8ef7429d-fb35-4910-8391-dcf2abdaf515.png";
 import SacolaAmarelaEmFardoImage from "/lovable-uploads/8cc72b6b-146e-43ca-bd5b-4862c2b42d54.png";
+import SacolaVerdeEmFardoImage from "/lovable-uploads/7090ed62-d7a8-431a-944e-a43ea2089a43.png";
 
 export type Product = {
   id: number;
