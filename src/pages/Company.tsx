@@ -104,7 +104,13 @@ const companiesData: CompanyData[] = [
         imageUrl: SacolaMulticolorImage,
         images: [SacolaMulticolorImage, SacolaMulticolorImage, SacolaMulticolorImage]
       },
-      { id: 2, name: "Sacolas em Caixa Verde", description: "Sacolas plásticas verdes organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Verde" },
+      { 
+        id: 2, 
+        name: "Sacolas em Caixa Verde", 
+        description: "Sacola 30x40 - c/ 2Kg\nSacola 38x48 - c/ 3Kg\nSacola 47x57 - c/ 4Kg", 
+        category: "Sacolas em Caixa", 
+        subcategory: "Verde" 
+      },
       { id: 3, name: "Sacolas em Caixa Azul", description: "Sacolas plásticas azuis organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Azul" },
       { id: 4, name: "Sacolas em Caixa Amarela", description: "Sacolas plásticas amarelas organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Amarela" },
       { id: 5, name: "Sacolas em Caixa Branca", description: "Sacolas plásticas brancas organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Branca" },
