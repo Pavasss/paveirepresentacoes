@@ -16,6 +16,7 @@ import SacolaAzulImage from "/lovable-uploads/176714af-0ee1-44d2-9082-45838639bc
 import SacolaAmarelaImage from "/lovable-uploads/6b62bba1-61b6-474a-af14-fa547942e2ce.png";
 import SacolaCremeImage from "/lovable-uploads/60479c57-352f-44ef-991c-453ed1d3be7c.png";
 import SacolaCremeEmFardoImage from "/lovable-uploads/b4640d7f-7933-4095-834e-f68aaba1d123.png";
+import SacolaAzulEmFardoImage from "/lovable-uploads/8ef7429d-fb35-4910-8391-dcf2abdaf515.png";
 
 export type Product = {
   id: number;
@@ -137,7 +138,15 @@ export const companiesData: CompanyData[] = [
       
       { id: 7, name: "Sacolas em Fardo Multicolor", description: "Sacolas em fardo multicoloridas para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Multicolor" },
       { id: 8, name: "Sacolas em Fardo Verde", description: "Sacolas em fardo verdes para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Verde" },
-      { id: 9, name: "Sacolas em Fardo Azul", description: "Sacolas em fardo azuis para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Azul" },
+      { 
+        id: 9, 
+        name: "Sacolas em Fardo Azul", 
+        description: "Sacola 30x40 - c/ 2Kg\nSacola 30x45 - c/ 2Kg\nSacola 40x50 - c/ 3Kg\nSacola 47x57 - c/ 4Kg", 
+        category: "Sacolas em Fardo", 
+        subcategory: "Azul",
+        imageUrl: SacolaAzulEmFardoImage,
+        images: [SacolaAzulEmFardoImage] 
+      },
       { id: 10, name: "Sacolas em Fardo Amarela", description: "Sacolas em fardo amarelas para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Amarela" },
       { id: 11, name: "Sacolas em Fardo Branca", description: "Sacolas em fardo brancas para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Branca" },
       { 
