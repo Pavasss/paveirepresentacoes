@@ -395,7 +395,7 @@ const Company = () => {
                       <img 
                         src={product.imageUrl} 
                         alt={product.name} 
-                        className="h-full w-full object-cover"
+                        className="h-full w-full object-contain p-2" 
                       />
                     ) : (
                       <div className="flex flex-col items-center justify-center text-gray-400">
