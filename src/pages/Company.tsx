@@ -92,21 +92,25 @@ const companiesData: CompanyData[] = [
     foundedYear: "1995",
     location: "Rio de Janeiro, RJ",
     products: [
-      { id: 1, name: "Sacolas em Caixa Multicolor", description: "Sacolas plásticas multicoloridas organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Multicolor" },
-      { id: 2, name: "Sacolas em Caixa Verde", description: "Sacolas plásticas verdes organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Verde" },
-      { id: 3, name: "Sacolas em Caixa Azul", description: "Sacolas plásticas azuis organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Azul" },
-      { id: 4, name: "Sacolas em Caixa Amarela", description: "Sacolas plásticas amarelas organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Amarela" },
-      { id: 5, name: "Sacolas em Caixa Branca", description: "Sacolas plásticas brancas organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Branca" },
-      { id: 6, name: "Sacolas em Caixa Creme", description: "Sacolas plásticas creme organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Creme" },
+      { id: 1, name: "Sacola 30x40 - c/ 2Kg", description: "Sacolas plásticas multicoloridas tamanho 30x40 com 2Kg", category: "Sacolas em Caixa", subcategory: "Multicolor" },
+      { id: 2, name: "Sacola 30x45 - c/ 2Kg", description: "Sacolas plásticas multicoloridas tamanho 30x45 com 2Kg", category: "Sacolas em Caixa", subcategory: "Multicolor" },
+      { id: 3, name: "Sacola 40x50 - c/ 3Kg", description: "Sacolas plásticas multicoloridas tamanho 40x50 com 3Kg", category: "Sacolas em Caixa", subcategory: "Multicolor" },
+      { id: 4, name: "Sacola 47x57 - c/ 4Kg", description: "Sacolas plásticas multicoloridas tamanho 47x57 com 4Kg", category: "Sacolas em Caixa", subcategory: "Multicolor" },
       
-      { id: 7, name: "Sacolas em Fardo Multicolor", description: "Sacolas em fardo multicoloridas para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Multicolor" },
-      { id: 8, name: "Sacolas em Fardo Verde", description: "Sacolas em fardo verdes para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Verde" },
-      { id: 9, name: "Sacolas em Fardo Azul", description: "Sacolas em fardo azuis para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Azul" },
-      { id: 10, name: "Sacolas em Fardo Amarela", description: "Sacolas em fardo amarelas para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Amarela" },
-      { id: 11, name: "Sacolas em Fardo Branca", description: "Sacolas em fardo brancas para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Branca" },
-      { id: 12, name: "Sacolas em Fardo Creme", description: "Sacolas em fardo creme para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Creme" },
+      { id: 5, name: "Sacolas em Caixa Verde", description: "Sacolas plásticas verdes organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Verde" },
+      { id: 6, name: "Sacolas em Caixa Azul", description: "Sacolas plásticas azuis organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Azul" },
+      { id: 7, name: "Sacolas em Caixa Amarela", description: "Sacolas plásticas amarelas organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Amarela" },
+      { id: 8, name: "Sacolas em Caixa Branca", description: "Sacolas plásticas brancas organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Branca" },
+      { id: 9, name: "Sacolas em Caixa Creme", description: "Sacolas plásticas creme organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Creme" },
       
-      { id: 13, name: "Saco de Lixo c/100", description: "Sacos para lixo em pacotes com 100 unidades em diversos tamanhos e resistências", category: "Saco de Lixo", subcategory: "Saco c/100" },
+      { id: 10, name: "Sacolas em Fardo Multicolor", description: "Sacolas em fardo multicoloridas para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Multicolor" },
+      { id: 11, name: "Sacolas em Fardo Verde", description: "Sacolas em fardo verdes para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Verde" },
+      { id: 12, name: "Sacolas em Fardo Azul", description: "Sacolas em fardo azuis para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Azul" },
+      { id: 13, name: "Sacolas em Fardo Amarela", description: "Sacolas em fardo amarelas para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Amarela" },
+      { id: 14, name: "Sacolas em Fardo Branca", description: "Sacolas em fardo brancas para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Branca" },
+      { id: 15, name: "Sacolas em Fardo Creme", description: "Sacolas em fardo creme para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Creme" },
+      
+      { id: 16, name: "Saco de Lixo c/100", description: "Sacos para lixo em pacotes com 100 unidades em diversos tamanhos e resistências", category: "Saco de Lixo", subcategory: "Saco c/100" },
     ]
   },
   {
