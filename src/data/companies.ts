@@ -1,4 +1,3 @@
-
 // Company data
 import LibreplastLogo from "/lovable-uploads/e2adbeea-74fd-47ed-81d5-5f38e7b22a1e.png";
 import LiplastLogo from "/lovable-uploads/4728399f-477e-431b-aa72-21744815b3e7.png";
@@ -17,6 +16,7 @@ import SacolaAmarelaImage from "/lovable-uploads/6b62bba1-61b6-474a-af14-fa54794
 import SacolaCremeImage from "/lovable-uploads/60479c57-352f-44ef-991c-453ed1d3be7c.png";
 import SacolaCremeEmFardoImage from "/lovable-uploads/b4640d7f-7933-4095-834e-f68aaba1d123.png";
 import SacolaAzulEmFardoImage from "/lovable-uploads/8ef7429d-fb35-4910-8391-dcf2abdaf515.png";
+import SacolaAmarelaEmFardoImage from "/lovable-uploads/8cc72b6b-146e-43ca-bd5b-4862c2b42d54.png";
 
 export type Product = {
   id: number;
@@ -147,7 +147,15 @@ export const companiesData: CompanyData[] = [
         imageUrl: SacolaAzulEmFardoImage,
         images: [SacolaAzulEmFardoImage] 
       },
-      { id: 10, name: "Sacolas em Fardo Amarela", description: "Sacolas em fardo amarelas para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Amarela" },
+      { 
+        id: 10, 
+        name: "Sacolas em Fardo Amarela", 
+        description: "Sacola 30x45 - c/ 2Kg\nSacola 38x48 - c/ 3Kg\nSacola 40x50 - c/ 3Kg\nSacola 42x53 - c/ 3Kg\nSacola 47x57 - c/ 4Kg", 
+        category: "Sacolas em Fardo", 
+        subcategory: "Amarela",
+        imageUrl: SacolaAmarelaEmFardoImage,
+        images: [SacolaAmarelaEmFardoImage]
+      },
       { id: 11, name: "Sacolas em Fardo Branca", description: "Sacolas em fardo brancas para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Branca" },
       { 
         id: 12, 
@@ -278,7 +286,7 @@ export const companiesData: CompanyData[] = [
     foundedYear: "1990",
     location: "Guarulhos, SP",
     products: [
-      { id: 1, name: "Filme PVC Doméstico", description: "Filme PVC em rolos para uso doméstico", category: "Doméstica", subcategory: "PVC" },
+      { id: 1, name: "Filme PVC Doméstico", description: "Filme PVC em rolos para uso dom��stico", category: "Doméstica", subcategory: "PVC" },
       { id: 2, name: "Filmes Plásticos Industriais", description: "Filmes para máquinas industriais de embalagem", category: "Industrial", subcategory: "Plásticos" },
       { id: 3, name: "Sacos para Congelamento", description: "Sacos especiais para congelamento de alimentos", category: "Doméstica", subcategory: "Congelamento" }
     ]
