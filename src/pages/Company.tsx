@@ -412,7 +412,7 @@ const Company = () => {
                       </span>
                     </div>
                     <h3 className="font-bold text-lg text-brand-gray">{product.name}</h3>
-                    <p className="text-gray-600 mt-2">{product.description}</p>
+                    <p className="text-gray-600 mt-2 whitespace-pre-line">{product.description}</p>
                   </CardContent>
                 </Card>
               ))}
