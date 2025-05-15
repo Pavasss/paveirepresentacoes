@@ -106,7 +106,7 @@ const companiesData: CompanyData[] = [
       },
       { 
         id: 2, 
-        name: "Sacolas em Caixa Verde", 
+        name: "Sacolas Verde", 
         description: "Sacola 30x40 - c/ 2Kg\nSacola 38x48 - c/ 3Kg\nSacola 47x57 - c/ 4Kg", 
         category: "Sacolas em Caixa", 
         subcategory: "Verde" 
