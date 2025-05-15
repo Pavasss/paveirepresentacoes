@@ -92,7 +92,7 @@ const companiesData: CompanyData[] = [
     foundedYear: "1995",
     location: "Rio de Janeiro, RJ",
     products: [
-      { id: 1, name: "Sacolas em Caixa Multicolor", description: "Sacolas plásticas multicoloridas organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Multicolor" },
+      { id: 1, name: "Sacolas Multicolor", description: "Sacola 30x40 - c/ 2Kg\nSacola 30x45 - c/ 2Kg\nSacola 40x50 - c/ 3Kg\nSacola 47x57 - c/ 4Kg", category: "Sacolas em Caixa", subcategory: "Multicolor" },
       { id: 2, name: "Sacolas em Caixa Verde", description: "Sacolas plásticas verdes organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Verde" },
       { id: 3, name: "Sacolas em Caixa Azul", description: "Sacolas plásticas azuis organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Azul" },
       { id: 4, name: "Sacolas em Caixa Amarela", description: "Sacolas plásticas amarelas organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Amarela" },
