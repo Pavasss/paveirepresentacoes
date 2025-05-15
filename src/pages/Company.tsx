@@ -6,6 +6,7 @@ import WhatsAppButton from "../components/WhatsAppButton";
 import ProductFilter from "../components/ProductFilter";
 import { Card, CardContent } from "@/components/ui/card";
 import { Building2, ExternalLink, Package } from "lucide-react";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Button } from "@/components/ui/button";
 
 // Company data
@@ -91,22 +92,21 @@ const companiesData: CompanyData[] = [
     foundedYear: "1995",
     location: "Rio de Janeiro, RJ",
     products: [
-      { id: 1, name: "Sacolas Coloridas", description: "Sacolas plásticas em diversas cores e tamanhos. Disponível nas variantes: 30x40cm, 30x45cm, 40x50cm e 47x57cm.", category: "Sacolas", subcategory: "Coloridas" },
-      { id: 2, name: "Sacolas Brancas", description: "Sacolas plásticas brancas em vários tamanhos ideais para comércio em geral.", category: "Sacolas", subcategory: "Brancas" },
-      { id: 3, name: "Sacolas Alça Vazada", description: "Sacolas com alça vazada para maior facilidade no transporte.", category: "Sacolas", subcategory: "Alça Vazada" },
-      { id: 4, name: "Sacolas para Delivery", description: "Sacolas específicas para serviços de entrega e delivery.", category: "Sacolas", subcategory: "Delivery" },
+      { id: 1, name: "Sacolas em Caixa Multicolor", description: "Sacolas plásticas multicoloridas organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Multicolor" },
+      { id: 2, name: "Sacolas em Caixa Verde", description: "Sacolas plásticas verdes organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Verde" },
+      { id: 3, name: "Sacolas em Caixa Azul", description: "Sacolas plásticas azuis organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Azul" },
+      { id: 4, name: "Sacolas em Caixa Amarela", description: "Sacolas plásticas amarelas organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Amarela" },
+      { id: 5, name: "Sacolas em Caixa Branca", description: "Sacolas plásticas brancas organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Branca" },
+      { id: 6, name: "Sacolas em Caixa Creme", description: "Sacolas plásticas creme organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Creme" },
       
-      { id: 5, name: "Embalagens para Pães", description: "Embalagens ideais para pães e produtos de padaria.", category: "Embalagens", subcategory: "Pães" },
-      { id: 6, name: "Embalagens para Frios", description: "Embalagens específicas para armazenamento de frios e laticínios.", category: "Embalagens", subcategory: "Frios" },
-      { id: 7, name: "Embalagens para Alimentos", description: "Embalagens para diversos tipos de alimentos.", category: "Embalagens", subcategory: "Alimentos" },
+      { id: 7, name: "Sacolas em Fardo Multicolor", description: "Sacolas em fardo multicoloridas para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Multicolor" },
+      { id: 8, name: "Sacolas em Fardo Verde", description: "Sacolas em fardo verdes para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Verde" },
+      { id: 9, name: "Sacolas em Fardo Azul", description: "Sacolas em fardo azuis para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Azul" },
+      { id: 10, name: "Sacolas em Fardo Amarela", description: "Sacolas em fardo amarelas para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Amarela" },
+      { id: 11, name: "Sacolas em Fardo Branca", description: "Sacolas em fardo brancas para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Branca" },
+      { id: 12, name: "Sacolas em Fardo Creme", description: "Sacolas em fardo creme para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Creme" },
       
-      { id: 8, name: "Sacos para Lixo", description: "Sacos para lixo em diversos tamanhos e resistências.", category: "Sacos", subcategory: "Lixo" },
-      { id: 9, name: "Sacos para Alimentos", description: "Sacos específicos para armazenamento de alimentos.", category: "Sacos", subcategory: "Alimentos" },
-      { id: 10, name: "Sacos para Congelados", description: "Sacos resistentes para alimentos congelados.", category: "Sacos", subcategory: "Congelados" },
-      
-      { id: 11, name: "Bobinas Plásticas", description: "Bobinas plásticas para diversos usos comerciais.", category: "Bobinas", subcategory: "Plásticas" },
-      { id: 12, name: "Bobinas Picotadas", description: "Bobinas com picote para fácil separação.", category: "Bobinas", subcategory: "Picotadas" },
-      { id: 13, name: "Bobinas para PDV", description: "Bobinas específicas para pontos de venda.", category: "Bobinas", subcategory: "PDV" }
+      { id: 13, name: "Saco de Lixo c/100", description: "Sacos para lixo em pacotes com 100 unidades em diversos tamanhos e resistências", category: "Saco de Lixo", subcategory: "Saco c/100" },
     ]
   },
   {
