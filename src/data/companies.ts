@@ -15,6 +15,7 @@ import SacolaVerdeImage from "/lovable-uploads/808fa38b-8340-4428-8b56-f9bbac309
 import SacolaAzulImage from "/lovable-uploads/176714af-0ee1-44d2-9082-45838639bc6d.png";
 import SacolaAmarelaImage from "/lovable-uploads/6b62bba1-61b6-474a-af14-fa547942e2ce.png";
 import SacolaCremeImage from "/lovable-uploads/60479c57-352f-44ef-991c-453ed1d3be7c.png";
+import SacolaCremeEmFardoImage from "/lovable-uploads/b4640d7f-7933-4095-834e-f68aaba1d123.png";
 
 export type Product = {
   id: number;
@@ -139,7 +140,15 @@ export const companiesData: CompanyData[] = [
       { id: 9, name: "Sacolas em Fardo Azul", description: "Sacolas em fardo azuis para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Azul" },
       { id: 10, name: "Sacolas em Fardo Amarela", description: "Sacolas em fardo amarelas para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Amarela" },
       { id: 11, name: "Sacolas em Fardo Branca", description: "Sacolas em fardo brancas para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Branca" },
-      { id: 12, name: "Sacolas em Fardo Creme", description: "Sacolas em fardo creme para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Creme" },
+      { 
+        id: 12, 
+        name: "Sacolas em Fardo Creme", 
+        description: "Sacola 30x40 c/ 2kg\nSacola 30x45 c/ 2kg\nSacola 40x50 c/ 3kg\nSacola 47x57 c/ 4kg\nSacola 60x75x3,0 (L) pct c/ 100 und\nSacola 60x75x5,0 (P) pct c/ 100 und\nSacola 70x80x5,0 pct c/ 100 und\nSacola 80x100x5,0 pct c/ 100 und", 
+        category: "Sacolas em Fardo", 
+        subcategory: "Creme",
+        imageUrl: SacolaCremeEmFardoImage,
+        images: [SacolaCremeEmFardoImage]
+      },
       
       { id: 13, name: "Saco de Lixo c/100", description: "Sacos para lixo em pacotes com 100 unidades em diversos tamanhos e resistências", category: "Saco de Lixo", subcategory: "Saco c/100" },
     ]
