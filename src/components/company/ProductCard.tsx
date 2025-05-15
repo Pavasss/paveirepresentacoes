@@ -25,8 +25,12 @@ const ProductCard = ({ product }: ProductCardProps) => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="-left-2" />
-            <CarouselNext className="-right-2" />
+            {product.images.length > 1 && (
+              <>
+                <CarouselPrevious className="-left-2" />
+                <CarouselNext className="-right-2" />
+              </>
+            )}
           </Carousel>
         ) : product.imageUrl ? (
           <img 
