@@ -24,6 +24,7 @@ import ThermoflexoLogo from "/lovable-uploads/87a59662-6473-4aec-9e38-37ecf067db
 import SacolaMulticolorImage from "/lovable-uploads/72025acd-8514-49d7-9071-9e35c0059efb.png";
 import SacolaVerdeImage from "/lovable-uploads/808fa38b-8340-4428-8b56-f9bbac309822.png";
 import SacolaAzulImage from "/lovable-uploads/176714af-0ee1-44d2-9082-45838639bc6d.png";
+import SacolaAmarelaImage from "/lovable-uploads/6b62bba1-61b6-474a-af14-fa547942e2ce.png";
 
 type Product = {
   id: number;
@@ -124,7 +125,15 @@ const companiesData: CompanyData[] = [
         imageUrl: SacolaAzulImage,
         images: [SacolaAzulImage]
       },
-      { id: 4, name: "Sacolas em Caixa Amarela", description: "Sacolas plásticas amarelas organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Amarela" },
+      { 
+        id: 4, 
+        name: "Sacolas Amarela", 
+        description: "Sacola 30x40 - c/ 2Kg\nSacola 38x48 - c/ 3Kg\nSacola 47x57 - c/ 4Kg", 
+        category: "Sacolas em Caixa", 
+        subcategory: "Amarela",
+        imageUrl: SacolaAmarelaImage,
+        images: [SacolaAmarelaImage]
+      },
       { id: 5, name: "Sacolas em Caixa Branca", description: "Sacolas plásticas brancas organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Branca" },
       { id: 6, name: "Sacolas em Caixa Creme", description: "Sacolas plásticas creme organizadas em caixa para fácil armazenamento e uso", category: "Sacolas em Caixa", subcategory: "Creme" },
       
