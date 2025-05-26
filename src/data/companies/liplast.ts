@@ -1,7 +1,6 @@
-
 import { CompanyData } from './types';
 import LiplastLogo from "/lovable-uploads/4728399f-477e-431b-aa72-21744815b3e7.png";
-import SacolaMulticolorImage from "/lovable-uploads/72025acd-8514-49d7-9071-9e35c0059efb.png";
+import SacolaMulticolorImage from "/lovable-uploads/71e57601-d49b-460d-82ae-2eab2f3a04f9.png";
 import SacolaVerdeImage from "/lovable-uploads/808fa38b-8340-4428-8b56-f9bbac309822.png";
 import SacolaAzulImage from "/lovable-uploads/176714af-0ee1-44d2-9082-45838639bc6d.png";
 import SacolaAmarelaImage from "/lovable-uploads/6b62bba1-61b6-474a-af14-fa547942e2ce.png";
@@ -23,12 +22,12 @@ export const liplast: CompanyData = {
   products: [
     { 
       id: 1, 
-      name: "Sacolas Multicolor", 
+      name: "Sacolas em Caixa Multicolor", 
       description: "Sacola 30x40 - c/ 2Kg\nSacola 30x45 - c/ 2Kg\nSacola 40x50 - c/ 3Kg\nSacola 47x57 - c/ 4Kg", 
       category: "Sacolas em Caixa", 
       subcategory: "Multicolor", 
       imageUrl: SacolaMulticolorImage,
-      images: [SacolaMulticolorImage, SacolaMulticolorImage, SacolaMulticolorImage]
+      images: [SacolaMulticolorImage]
     },
     { 
       id: 2, 
