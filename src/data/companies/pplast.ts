@@ -11,6 +11,7 @@ export const pplast: CompanyData = {
   foundedYear: "2005",
   location: "Curitiba, PR",
   products: [
+    { id: 1, name: "Embalagens para Doces", description: "Embalagens transparentes para doces diversos", category: "Doces e Salgados", subcategory: "c/ Pino" },
     { id: 2, name: "Potes com Tampa", description: "Potes plásticos com tampas seguras para alimentos", category: "Potes", subcategory: "Com Tampa" },
     { id: 3, name: "Embalagem para Torta", description: "Embalagens redondas para tortas e bolos", category: "Confeitaria (Redondos e Fatia)", subcategory: "Tortas" },
     { id: 4, name: "Embalagem para Bolos", description: "Embalagens retangulares para bolos e tortas", category: "Confeitaria (Retangulares e Quadrados)", subcategory: "Bolos" },
@@ -28,77 +29,77 @@ export const pplast: CompanyData = {
       name: "P-10", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 154x74x57\nMedida externa: 185x105x62\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
       category: "Doces e Salgados", 
-      subcategory: "s/ Pino"
+      subcategory: "c/ Pino"
     },
     { 
       id: 7, 
       name: "P-12", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 125x125x82\nMedida externa: 150x150x85\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Quadrado", 
       category: "Doces e Salgados", 
-      subcategory: "s/ Pino"
+      subcategory: "c/ Pino"
     },
     { 
       id: 8, 
       name: "P-13", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 145x145x90\nMedida externa: 180x180x100\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Quadrado", 
       category: "Doces e Salgados", 
-      subcategory: "s/ Pino"
+      subcategory: "c/ Pino"
     },
     { 
       id: 9, 
       name: "P-17", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 180x120x75\nMedida externa: 205x145x80\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
       category: "Doces e Salgados", 
-      subcategory: "s/ Pino"
+      subcategory: "c/ Pino"
     },
     { 
       id: 10, 
       name: "P-18", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 195x125x70\nMedida externa: 225x165x75\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
       category: "Doces e Salgados", 
-      subcategory: "s/ Pino"
+      subcategory: "c/ Pino"
     },
     { 
       id: 11, 
       name: "P-20", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 195x125x100\nMedida externa: 225x165x105\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
       category: "Doces e Salgados", 
-      subcategory: "s/ Pino"
+      subcategory: "c/ Pino"
     },
     { 
       id: 12, 
       name: "P-88", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 100x70x35\nMedida externa: 130x100x40\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
       category: "Doces e Salgados", 
-      subcategory: "s/ Pino"
+      subcategory: "c/ Pino"
     },
     { 
       id: 13, 
       name: "P-90", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 145x120x45\nMedida externa: 185x170x50\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
       category: "Doces e Salgados", 
-      subcategory: "s/ Pino"
+      subcategory: "c/ Pino"
     },
     { 
       id: 14, 
       name: "P-92", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 145x120x55\nMedida externa: 185x170x60\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
       category: "Doces e Salgados", 
-      subcategory: "s/ Pino"
+      subcategory: "c/ Pino"
     },
     { 
       id: 15, 
       name: "P-94", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 145x120x65\nMedida externa: 185x170x70\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
       category: "Doces e Salgados", 
-      subcategory: "s/ Pino"
+      subcategory: "c/ Pino"
     },
     { 
       id: 16, 
       name: "P-550", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 300 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 70x70x43\nMedida externa: 85x85x45\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Quadrado", 
       category: "Doces e Salgados", 
-      subcategory: "s/ Pino"
+      subcategory: "c/ Pino"
     }
   ]
 };
