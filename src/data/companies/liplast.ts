@@ -30,7 +30,7 @@ export const liplast: CompanyData = {
     },
     { 
       id: 2, 
-      name: "Sacolas Verde", 
+      name: "Sacolas em Caixa Verde", 
       description: "Sacola 30x40 - c/ 2Kg\nSacola 38x48 - c/ 3Kg\nSacola 47x57 - c/ 4Kg", 
       category: "Sacolas em Caixa", 
       subcategory: "Verde",
@@ -39,7 +39,7 @@ export const liplast: CompanyData = {
     },
     { 
       id: 3, 
-      name: "Sacolas Azul", 
+      name: "Sacolas em Caixa Azul", 
       description: "Sacola 30x40 - c/ 2Kg\nSacola 38x48 - c/ 3Kg\nSacola 47x57 - c/ 4Kg", 
       category: "Sacolas em Caixa", 
       subcategory: "Azul",
@@ -48,7 +48,7 @@ export const liplast: CompanyData = {
     },
     { 
       id: 4, 
-      name: "Sacolas Amarela", 
+      name: "Sacolas em Caixa Amarela", 
       description: "Sacola 30x40 - c/ 2Kg\nSacola 38x48 - c/ 3Kg\nSacola 47x57 - c/ 4Kg", 
       category: "Sacolas em Caixa", 
       subcategory: "Amarela",
@@ -57,7 +57,7 @@ export const liplast: CompanyData = {
     },
     { 
       id: 5, 
-      name: "Sacolas Creme", 
+      name: "Sacolas em Caixa Creme", 
       description: "Sacola 30x40 - c/ 2Kg\nSacola 38x48 - c/ 3Kg\nSacola 47x57 - c/ 4Kg", 
       category: "Sacolas em Caixa", 
       subcategory: "Creme",
