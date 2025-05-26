@@ -1,3 +1,4 @@
+
 import { CompanyData } from './types';
 import LiplastLogo from "/lovable-uploads/4728399f-477e-431b-aa72-21744815b3e7.png";
 import SacolaVerdeImage from "/lovable-uploads/808fa38b-8340-4428-8b56-f9bbac309822.png";
@@ -9,17 +10,17 @@ import SacolaAzulEmFardoImage from "/lovable-uploads/8ef7429d-fb35-4910-8391-dcf
 import SacolaAmarelaEmFardoImage from "/lovable-uploads/8cc72b6b-146e-43ca-bd5b-4862c2b42d54.png";
 import SacolaVerdeEmFardoImage from "/lovable-uploads/f238c39b-821a-4d9b-84c9-012508270a63.png";
 import SacolaMulticolorEmFardoImage from "/lovable-uploads/eff67fce-cb1b-4277-a118-4f1c3ab559a6.png";
-import SacolaMulticolorImage from "/lovable-uploads/9d71a41e-48fa-4bf5-9b31-b6ed685ce6ab.png";
-import SacoLixoImage from "/lovable-uploads/346d9b9f-4cc3-449e-a85e-464c7f7de1e3.png";
+import SacolaMulticolorImage from "/lovable-uploads/9a7a52f1-0ebf-492c-82d4-e04fe7cbb30a.png";
+import SacoLixoImage from "/lovable-uploads/87a59662-6473-4aec-9e38-37ecf067dbe7.png";
 
 export const liplast: CompanyData = {
   id: "liplast",
   name: "Liplast",
   logo: LiplastLogo,
   link: "https://www.liplast.com.br/",
-  description: "Liplast é referência na fabricação de embalagens plásticas para o setor alimentício. Com tecnologia de ponta e foco na qualidade, a empresa fornece produtos seguros e práticos para restaurantes e serviços de delivery.",
-  foundedYear: "1995",
-  location: "Rio de Janeiro, RJ",
+  description: "Somos uma indústria da região sul de Santa Catarina, mais precisamente na cidade de Orleans. Geograficamente, o município situa-se entre a serra catarinense e o litoral, região conhecida por sua cultura e povo trabalhador, onde muitas dessas compõem o nosso time, desempenhando suas funções dentro da Liplast. Desde 1999, levamos mais facilidade para o dia a dia das pessoas, entendendo a importância da responsabilidade ambiental, fabricando sacolas plásticas de acordo com a logística reversa sustentável. Investimos em tecnologias acerca deste assunto, pois sabemos que isso resulta em uma redução significativa no impacto causado ao meio-ambiente.",
+  foundedYear: "1999",
+  location: "Orleans, SC",
   products: [
     { 
       id: 1, 
