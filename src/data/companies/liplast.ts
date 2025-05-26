@@ -8,8 +8,7 @@ import SacolaCremeImage from "/lovable-uploads/60479c57-352f-44ef-991c-453ed1d3b
 import SacolaCremeEmFardoImage from "/lovable-uploads/b4640d7f-7933-4095-834e-f68aaba1d123.png";
 import SacolaAzulEmFardoImage from "/lovable-uploads/8ef7429d-fb35-4910-8391-dcf2abdaf515.png";
 import SacolaAmarelaEmFardoImage from "/lovable-uploads/8cc72b6b-146e-43ca-bd5b-4862c2b42d54.png";
-import SacolaVerdeEmFardoImage from "/lovable-uploads/7090ed62-d7a8-431a-944e-a43ea2089a43.png";
-import SacolaVerdeEmFardoImg from "/lovable-uploads/87cdfb74-1606-4168-915e-0a020f8302ef.png";
+import SacolaVerdeEmFardoImage from "/lovable-uploads/f238c39b-821a-4d9b-84c9-012508270a63.png";
 
 export const liplast: CompanyData = {
   id: "liplast",
@@ -74,7 +73,7 @@ export const liplast: CompanyData = {
       category: "Sacolas em Fardo", 
       subcategory: "Verde",
       imageUrl: SacolaVerdeEmFardoImage,
-      images: [SacolaVerdeEmFardoImage, SacolaVerdeEmFardoImg]
+      images: [SacolaVerdeEmFardoImage]
     },
     { 
       id: 9, 
