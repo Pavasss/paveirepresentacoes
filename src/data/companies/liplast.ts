@@ -1,6 +1,5 @@
 import { CompanyData } from './types';
 import LiplastLogo from "/lovable-uploads/4728399f-477e-431b-aa72-21744815b3e7.png";
-import SacolaMulticolorImage from "/lovable-uploads/4728399f-477e-431b-aa72-21744815b3e7.png";
 import SacolaVerdeImage from "/lovable-uploads/808fa38b-8340-4428-8b56-f9bbac309822.png";
 import SacolaAzulImage from "/lovable-uploads/176714af-0ee1-44d2-9082-45838639bc6d.png";
 import SacolaAmarelaImage from "/lovable-uploads/6b62bba1-61b6-474a-af14-fa547942e2ce.png";
@@ -10,6 +9,7 @@ import SacolaAzulEmFardoImage from "/lovable-uploads/8ef7429d-fb35-4910-8391-dcf
 import SacolaAmarelaEmFardoImage from "/lovable-uploads/8cc72b6b-146e-43ca-bd5b-4862c2b42d54.png";
 import SacolaVerdeEmFardoImage from "/lovable-uploads/f238c39b-821a-4d9b-84c9-012508270a63.png";
 import SacolaMulticolorEmFardoImage from "/lovable-uploads/eff67fce-cb1b-4277-a118-4f1c3ab559a6.png";
+import SacolaMulticolorImage from "/lovable-uploads/9d71a41e-48fa-4bf5-9b31-b6ed685ce6ab.png";
 
 export const liplast: CompanyData = {
   id: "liplast",
