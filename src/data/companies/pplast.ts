@@ -20,7 +20,9 @@ export const pplast: CompanyData = {
       name: "P-08", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 154x74x46\nMedida externa: 185x105x50\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
       category: "Doces e Salgados", 
-      subcategory: "c/ Pino" 
+      subcategory: "c/ Pino",
+      imageUrl: "/lovable-uploads/aa222592-c90d-48fa-9ad0-0531084e2377.png",
+      images: ["/lovable-uploads/aa222592-c90d-48fa-9ad0-0531084e2377.png"]
     }
   ]
 };
