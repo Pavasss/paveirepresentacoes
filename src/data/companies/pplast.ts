@@ -1,4 +1,3 @@
-
 import { CompanyData } from './types';
 import PPlastLogo from "/lovable-uploads/77d5dedc-0b4e-4553-bf55-b95f214978e6.png";
 
@@ -16,63 +15,81 @@ export const pplast: CompanyData = {
       name: "P-640", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 300 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 70x40\nMedida externa: 110x44\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Redondo", 
       category: "Potes", 
-      subcategory: "Potes"
+      subcategory: "Potes",
+      imageUrl: "/lovable-uploads/0f8d2c35-f260-44a7-a774-fbeead6cda4c.png",
+      images: ["/lovable-uploads/0f8d2c35-f260-44a7-a774-fbeead6cda4c.png"]
     },
     { 
       id: 22, 
       name: "P-642", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 300 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 75x75\nMedida externa: 90x47\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Redondo", 
       category: "Potes", 
-      subcategory: "Potes"
+      subcategory: "Potes",
+      imageUrl: "/lovable-uploads/c20e3b04-f5a7-4bb0-abad-66fae1663459.png",
+      images: ["/lovable-uploads/c20e3b04-f5a7-4bb0-abad-66fae1663459.png"]
     },
     { 
       id: 23, 
       name: "P-742", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 200 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 85x40\nMedida externa: 115x45\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Redondo", 
       category: "Potes", 
-      subcategory: "Potes"
+      subcategory: "Potes",
+      imageUrl: "/lovable-uploads/e870868a-625d-4b5e-bdd8-73d37dbad19d.png",
+      images: ["/lovable-uploads/e870868a-625d-4b5e-bdd8-73d37dbad19d.png"]
     },
     { 
       id: 24, 
       name: "P-750", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 200 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 85x50\nMedida externa: 115x55\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Redondo", 
       category: "Potes", 
-      subcategory: "Potes"
+      subcategory: "Potes",
+      imageUrl: "/lovable-uploads/d5031670-a9bc-40ad-8179-85866f37b992.png",
+      images: ["/lovable-uploads/d5031670-a9bc-40ad-8179-85866f37b992.png"]
     },
     { 
       id: 25, 
       name: "P-771", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 200 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 85x60\nMedida externa: 115x63\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Redondo", 
       category: "Potes", 
-      subcategory: "Potes"
+      subcategory: "Potes",
+      imageUrl: "/lovable-uploads/01e89b04-1290-4f65-a85b-3099f8e65758.png",
+      images: ["/lovable-uploads/01e89b04-1290-4f65-a85b-3099f8e65758.png"]
     },
     { 
       id: 26, 
       name: "P-650", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 300 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 85x85x40\nMedida externa: 105x105x45\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Quadrado", 
       category: "Potes", 
-      subcategory: "Potes"
+      subcategory: "Potes",
+      imageUrl: "/lovable-uploads/b77d3ab6-1a1a-4f77-8700-1decfda1327e.png",
+      images: ["/lovable-uploads/b77d3ab6-1a1a-4f77-8700-1decfda1327e.png"]
     },
     { 
       id: 27, 
       name: "P-742M (Liso)", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 200 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 85x40\nMedida externa: 115x45\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Redondo", 
       category: "Potes", 
-      subcategory: "Potes Liso"
+      subcategory: "Potes Liso",
+      imageUrl: "/lovable-uploads/c77c4c53-0359-4de2-8906-d3469f298848.png",
+      images: ["/lovable-uploads/c77c4c53-0359-4de2-8906-d3469f298848.png"]
     },
     { 
       id: 28, 
       name: "P-750M (Liso)", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 200 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 85x50\nMedida externa: 115x55\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Redondo", 
       category: "Potes", 
-      subcategory: "Potes Liso"
+      subcategory: "Potes Liso",
+      imageUrl: "/lovable-uploads/b69a0fcb-5256-4318-84f4-66ae26bfeccf.png",
+      images: ["/lovable-uploads/b69a0fcb-5256-4318-84f4-66ae26bfeccf.png"]
     },
     { 
       id: 29, 
       name: "P-771M (Liso)", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 200 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 85x60\nMedida externa: 115x65\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Redondo", 
       category: "Potes", 
-      subcategory: "Potes Liso"
+      subcategory: "Potes Liso",
+      imageUrl: "/lovable-uploads/45006a8e-cedb-41b8-8536-943f22c5ceca.png",
+      images: ["/lovable-uploads/45006a8e-cedb-41b8-8536-943f22c5ceca.png"]
     },
     { 
       id: 17, 
