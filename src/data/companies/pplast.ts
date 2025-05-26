@@ -1,4 +1,3 @@
-
 import { CompanyData } from './types';
 import PPlastLogo from "/lovable-uploads/77d5dedc-0b4e-4553-bf55-b95f214978e6.png";
 
@@ -19,28 +18,36 @@ export const pplast: CompanyData = {
       name: "PP-08 (Pino)", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 160x90x48\nMedida externa: 180x125x502\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
       category: "Doces e Salgados", 
-      subcategory: "c/ Pino"
+      subcategory: "c/ Pino",
+      imageUrl: "/lovable-uploads/b1637e63-3ea4-4c16-9d30-c5dfaf384751.png",
+      images: ["/lovable-uploads/b1637e63-3ea4-4c16-9d30-c5dfaf384751.png"]
     },
     { 
       id: 18, 
       name: "PP-10 (Pino)", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 160x90x63\nMedida externa: 180x125x65\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
       category: "Doces e Salgados", 
-      subcategory: "c/ Pino"
+      subcategory: "c/ Pino",
+      imageUrl: "/lovable-uploads/6064741c-7a3c-48cb-a8de-8531f1c6b6ed.png",
+      images: ["/lovable-uploads/6064741c-7a3c-48cb-a8de-8531f1c6b6ed.png"]
     },
     { 
       id: 19, 
       name: "PP-18 (Pino)", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 195x125x73\nMedida externa: 215x145x75\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
       category: "Doces e Salgados", 
-      subcategory: "c/ Pino"
+      subcategory: "c/ Pino",
+      imageUrl: "/lovable-uploads/a07eea13-25d9-4246-9cb2-abd025eb7291.png",
+      images: ["/lovable-uploads/a07eea13-25d9-4246-9cb2-abd025eb7291.png"]
     },
     { 
       id: 20, 
       name: "PP-20 (Pino)", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 195x125x98\nMedida externa: 215x145x100\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
       category: "Doces e Salgados", 
-      subcategory: "c/ Pino"
+      subcategory: "c/ Pino",
+      imageUrl: "/lovable-uploads/8eb90a41-3139-4a9a-9c66-c8ed2d040a9b.png",
+      images: ["/lovable-uploads/8eb90a41-3139-4a9a-9c66-c8ed2d040a9b.png"]
     },
     { 
       id: 5, 
