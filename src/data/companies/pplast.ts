@@ -7,9 +7,9 @@ export const pplast: CompanyData = {
   name: "P.Plast",
   logo: PPlastLogo,
   link: "https://pplast.com.br/",
-  description: "P.Plast é especializada em soluções inovadoras para embalagens plásticas, atendendo diversos segmentos do mercado. A empresa investe constantemente em pesquisa e desenvolvimento de produtos sustentáveis.",
-  foundedYear: "2005",
-  location: "Curitiba, PR",
+  description: "Em 2010 a empresa passou a denominar-se Peraro Indústria de Móveis e Plásticos Ltda, entrando em mais um segmento, o termoplástico, onde a empresa passa a produzir embalagens plásticas para panificação. Atualmente a empresa trabalha focada no segmento plástico, conta com uma estrutura de 6.000m², e é equipada com Maquinário moderno e adequado, cumprindo todas as normas técnicas.",
+  foundedYear: "2010",
+  location: "Urussanga, SC",
   products: [
     { id: 2, name: "Potes com Tampa", description: "Potes plásticos com tampas seguras para alimentos", category: "Potes", subcategory: "Com Tampa" },
     { id: 3, name: "Embalagem para Torta", description: "Embalagens redondas para tortas e bolos", category: "Confeitaria (Redondos e Fatia)", subcategory: "Tortas" },
@@ -157,6 +157,9 @@ export const pplast: CompanyData = {
       subcategory: "s/ Pino",
       imageUrl: "/lovable-uploads/8c831e67-e6e8-47a2-9844-f11ebf1ccacb.png",
       images: ["/lovable-uploads/8c831e67-e6e8-47a2-9844-f11ebf1ccacb.png"]
-    }
+    },
+    { id: 2, name: "Potes com Tampa", description: "Potes plásticos com tampas seguras para alimentos", category: "Potes", subcategory: "Com Tampa" },
+    { id: 3, name: "Embalagem para Torta", description: "Embalagens redondas para tortas e bolos", category: "Confeitaria (Redondos e Fatia)", subcategory: "Tortas" },
+    { id: 4, name: "Embalagem para Bolos", description: "Embalagens retangulares para bolos e tortas", category: "Confeitaria (Retangulares e Quadrados)", subcategory: "Bolos" }
   ]
 };
