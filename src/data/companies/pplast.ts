@@ -14,6 +14,13 @@ export const pplast: CompanyData = {
     { id: 1, name: "Embalagens para Doces", description: "Embalagens transparentes para doces diversos", category: "Doces e Salgados", subcategory: "c/ Pino" },
     { id: 2, name: "Potes com Tampa", description: "Potes plásticos com tampas seguras para alimentos", category: "Potes", subcategory: "Com Tampa" },
     { id: 3, name: "Embalagem para Torta", description: "Embalagens redondas para tortas e bolos", category: "Confeitaria (Redondos e Fatia)", subcategory: "Tortas" },
-    { id: 4, name: "Embalagem para Bolos", description: "Embalagens retangulares para bolos e tortas", category: "Confeitaria (Retangulares e Quadrados)", subcategory: "Bolos" }
+    { id: 4, name: "Embalagem para Bolos", description: "Embalagens retangulares para bolos e tortas", category: "Confeitaria (Retangulares e Quadrados)", subcategory: "Bolos" },
+    { 
+      id: 5, 
+      name: "P-08", 
+      description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 154x74x46\nMedida externa: 185x105x50\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
+      category: "Doces e Salgados", 
+      subcategory: "c/ Pino" 
+    }
   ]
 };
