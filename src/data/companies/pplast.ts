@@ -15,6 +15,34 @@ export const pplast: CompanyData = {
     { id: 3, name: "Embalagem para Torta", description: "Embalagens redondas para tortas e bolos", category: "Confeitaria (Redondos e Fatia)", subcategory: "Tortas" },
     { id: 4, name: "Embalagem para Bolos", description: "Embalagens retangulares para bolos e tortas", category: "Confeitaria (Retangulares e Quadrados)", subcategory: "Bolos" },
     { 
+      id: 17, 
+      name: "PP-08 (Pino)", 
+      description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 160x90x48\nMedida externa: 180x125x502\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
+      category: "Doces e Salgados", 
+      subcategory: "c/ Pino"
+    },
+    { 
+      id: 18, 
+      name: "PP-10 (Pino)", 
+      description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 160x90x63\nMedida externa: 180x125x65\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
+      category: "Doces e Salgados", 
+      subcategory: "c/ Pino"
+    },
+    { 
+      id: 19, 
+      name: "PP-18 (Pino)", 
+      description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 195x125x73\nMedida externa: 215x145x75\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
+      category: "Doces e Salgados", 
+      subcategory: "c/ Pino"
+    },
+    { 
+      id: 20, 
+      name: "PP-20 (Pino)", 
+      description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 195x125x98\nMedida externa: 215x145x100\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
+      category: "Doces e Salgados", 
+      subcategory: "c/ Pino"
+    },
+    { 
       id: 5, 
       name: "P-08", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 154x74x46\nMedida externa: 185x105x50\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
