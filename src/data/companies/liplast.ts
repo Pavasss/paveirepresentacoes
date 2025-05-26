@@ -10,6 +10,7 @@ import SacolaAmarelaEmFardoImage from "/lovable-uploads/8cc72b6b-146e-43ca-bd5b-
 import SacolaVerdeEmFardoImage from "/lovable-uploads/f238c39b-821a-4d9b-84c9-012508270a63.png";
 import SacolaMulticolorEmFardoImage from "/lovable-uploads/eff67fce-cb1b-4277-a118-4f1c3ab559a6.png";
 import SacolaMulticolorImage from "/lovable-uploads/9d71a41e-48fa-4bf5-9b31-b6ed685ce6ab.png";
+import SacoLixoImage from "/lovable-uploads/346d9b9f-4cc3-449e-a85e-464c7f7de1e3.png";
 
 export const liplast: CompanyData = {
   id: "liplast",
@@ -113,6 +114,14 @@ export const liplast: CompanyData = {
       images: [SacolaCremeEmFardoImage]
     },
     
-    { id: 13, name: "Saco de Lixo c/100", description: "Sacos para lixo em pacotes com 100 unidades em diversos tamanhos e resistências", category: "Saco de Lixo", subcategory: "Saco c/100" },
+    { 
+      id: 13, 
+      name: "Saco de Lixo c/100", 
+      description: "Tamanho     - Litro - Peso (kg)\n60X70X4,0 - 60L - 1,680Kg\n50X60X4,0 - 40L - 1,200Kg\n90X110X5,0 - 200L - 4,950Kg\n90X110X7,0 - 200L - 6,930Kg\n80X100X5,0 - 200L - 4,000Kg\n90X110X6,0 - 200L - 5,940Kg\n75X105X7,0 - 105L - 5,512Kg\n75X90X4,0 - 105L - 2,700Kg\n75X90X5,0 - 105L - 3,375Kg\n75X90X6,0 - 105L - 4,050Kg", 
+      category: "Saco de Lixo c/100", 
+      subcategory: "Saco c/100",
+      imageUrl: SacoLixoImage,
+      images: [SacoLixoImage]
+    },
   ]
 };
