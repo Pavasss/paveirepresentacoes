@@ -17,9 +17,9 @@ export const liplast: CompanyData = {
   name: "Liplast",
   logo: LiplastLogo,
   link: "https://www.liplast.com.br/",
-  description: "Liplast é referência na fabricação de embalagens plásticas para o setor alimentício. Com tecnologia de ponta e foco na qualidade, a empresa fornece produtos seguros e práticos para restaurantes e serviços de delivery.",
-  foundedYear: "1995",
-  location: "Rio de Janeiro, RJ",
+  description: "Somos uma indústria da região sul de Santa Catarina, mais precisamente na cidade de Orleans. Geograficamente, o município situa-se entre a serra catarinense e o litoral, região conhecida por sua cultura e povo trabalhador, onde muitas dessas compõem o nosso time, desempenhando suas funções dentro da Liplast. Desde 1999, levamos mais facilidade para o dia a dia das pessoas, entendendo a importância da responsabilidade ambiental, fabricando sacolas plásticas de acordo com a logística reversa sustentável. Investimos em tecnologias acerca deste assunto, pois sabemos que isso resulta em uma redução significativa no impacto causado ao meio-ambiente.",
+  foundedYear: "1999",
+  location: "Orleans, SC",
   products: [
     { 
       id: 1, 
