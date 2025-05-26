@@ -1,3 +1,4 @@
+
 import { CompanyData } from './types';
 import PPlastLogo from "/lovable-uploads/77d5dedc-0b4e-4553-bf55-b95f214978e6.png";
 
@@ -63,77 +64,99 @@ export const pplast: CompanyData = {
       name: "P-10", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 154x74x57\nMedida externa: 185x105x62\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
       category: "Doces e Salgados", 
-      subcategory: "s/ Pino"
+      subcategory: "s/ Pino",
+      imageUrl: "/lovable-uploads/cef895f3-a29a-413f-8cda-b96b8171105d.png",
+      images: ["/lovable-uploads/cef895f3-a29a-413f-8cda-b96b8171105d.png"]
     },
     { 
       id: 7, 
       name: "P-12", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 125x125x82\nMedida externa: 150x150x85\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Quadrado", 
       category: "Doces e Salgados", 
-      subcategory: "s/ Pino"
+      subcategory: "s/ Pino",
+      imageUrl: "/lovable-uploads/ad5727df-c3fd-43cc-82fb-5eeeed6fdc5d.png",
+      images: ["/lovable-uploads/ad5727df-c3fd-43cc-82fb-5eeeed6fdc5d.png"]
     },
     { 
       id: 8, 
       name: "P-13", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 145x145x90\nMedida externa: 180x180x100\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Quadrado", 
       category: "Doces e Salgados", 
-      subcategory: "s/ Pino"
+      subcategory: "s/ Pino",
+      imageUrl: "/lovable-uploads/8ffd0599-d605-4898-af8a-851bc386ebb3.png",
+      images: ["/lovable-uploads/8ffd0599-d605-4898-af8a-851bc386ebb3.png"]
     },
     { 
       id: 9, 
       name: "P-17", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 180x120x75\nMedida externa: 205x145x80\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
       category: "Doces e Salgados", 
-      subcategory: "s/ Pino"
+      subcategory: "s/ Pino",
+      imageUrl: "/lovable-uploads/0b1547f6-e0ff-4be2-8b2c-f2962c8e5a6d.png",
+      images: ["/lovable-uploads/0b1547f6-e0ff-4be2-8b2c-f2962c8e5a6d.png"]
     },
     { 
       id: 10, 
       name: "P-18", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 195x125x70\nMedida externa: 225x165x75\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
       category: "Doces e Salgados", 
-      subcategory: "s/ Pino"
+      subcategory: "s/ Pino",
+      imageUrl: "/lovable-uploads/56ab2728-7cec-4e65-a864-2a48b5c694fe.png",
+      images: ["/lovable-uploads/56ab2728-7cec-4e65-a864-2a48b5c694fe.png"]
     },
     { 
       id: 11, 
       name: "P-20", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 195x125x100\nMedida externa: 225x165x105\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
       category: "Doces e Salgados", 
-      subcategory: "s/ Pino"
+      subcategory: "s/ Pino",
+      imageUrl: "/lovable-uploads/bdb662eb-c102-48c2-a6e8-80506a646d3d.png",
+      images: ["/lovable-uploads/bdb662eb-c102-48c2-a6e8-80506a646d3d.png"]
     },
     { 
       id: 12, 
       name: "P-88", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 100x70x35\nMedida externa: 130x100x40\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
       category: "Doces e Salgados", 
-      subcategory: "s/ Pino"
+      subcategory: "s/ Pino",
+      imageUrl: "/lovable-uploads/875580ea-a266-4caf-bf50-47318a54b7f1.png",
+      images: ["/lovable-uploads/875580ea-a266-4caf-bf50-47318a54b7f1.png"]
     },
     { 
       id: 13, 
       name: "P-90", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 145x120x45\nMedida externa: 185x170x50\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
       category: "Doces e Salgados", 
-      subcategory: "s/ Pino"
+      subcategory: "s/ Pino",
+      imageUrl: "/lovable-uploads/aef308d7-248b-48a0-9879-26cee2dfe520.png",
+      images: ["/lovable-uploads/aef308d7-248b-48a0-9879-26cee2dfe520.png"]
     },
     { 
       id: 14, 
       name: "P-92", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 145x120x55\nMedida externa: 185x170x60\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
       category: "Doces e Salgados", 
-      subcategory: "s/ Pino"
+      subcategory: "s/ Pino",
+      imageUrl: "/lovable-uploads/b0aedf9e-90fc-4cfc-8a87-c4235352406b.png",
+      images: ["/lovable-uploads/b0aedf9e-90fc-4cfc-8a87-c4235352406b.png"]
     },
     { 
       id: 15, 
       name: "P-94", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 100 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 145x120x65\nMedida externa: 185x170x70\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Retangular", 
       category: "Doces e Salgados", 
-      subcategory: "s/ Pino"
+      subcategory: "s/ Pino",
+      imageUrl: "/lovable-uploads/d86a1bae-b1ee-48f5-ace4-8fc4af9fae10.png",
+      images: ["/lovable-uploads/d86a1bae-b1ee-48f5-ace4-8fc4af9fae10.png"]
     },
     { 
       id: 16, 
       name: "P-550", 
       description: "INFORMAÇÕES ADICIONAIS\nCaixa com 300 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 70x70x43\nMedida externa: 85x85x45\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Quadrado", 
       category: "Doces e Salgados", 
-      subcategory: "s/ Pino"
+      subcategory: "s/ Pino",
+      imageUrl: "/lovable-uploads/8c831e67-e6e8-47a2-9844-f11ebf1ccacb.png",
+      images: ["/lovable-uploads/8c831e67-e6e8-47a2-9844-f11ebf1ccacb.png"]
     }
   ]
 };
