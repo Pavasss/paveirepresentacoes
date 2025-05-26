@@ -103,7 +103,6 @@ export const liplast: CompanyData = {
       imageUrl: SacolaAmarelaEmFardoImage,
       images: [SacolaAmarelaEmFardoImage]
     },
-    { id: 11, name: "Sacolas em Fardo Branca", description: "Sacolas em fardo brancas para uso comercial em grande volume", category: "Sacolas em Fardo", subcategory: "Branca" },
     { 
       id: 12, 
       name: "Sacolas em Fardo Creme", 
