@@ -11,9 +11,69 @@ export const pplast: CompanyData = {
   foundedYear: "2010",
   location: "Urussanga, SC",
   products: [
-    { id: 2, name: "Potes com Tampa", description: "Potes plásticos com tampas seguras para alimentos", category: "Potes", subcategory: "Com Tampa" },
-    { id: 3, name: "Embalagem para Torta", description: "Embalagens redondas para tortas e bolos", category: "Confeitaria (Redondos e Fatia)", subcategory: "Tortas" },
-    { id: 4, name: "Embalagem para Bolos", description: "Embalagens retangulares para bolos e tortas", category: "Confeitaria (Retangulares e Quadrados)", subcategory: "Bolos" },
+    { 
+      id: 21, 
+      name: "P-640", 
+      description: "INFORMAÇÕES ADICIONAIS\nCaixa com 300 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 70x40\nMedida externa: 110x44\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Redondo", 
+      category: "Potes", 
+      subcategory: "Potes"
+    },
+    { 
+      id: 22, 
+      name: "P-642", 
+      description: "INFORMAÇÕES ADICIONAIS\nCaixa com 300 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 75x75\nMedida externa: 90x47\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Redondo", 
+      category: "Potes", 
+      subcategory: "Potes"
+    },
+    { 
+      id: 23, 
+      name: "P-742", 
+      description: "INFORMAÇÕES ADICIONAIS\nCaixa com 200 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 85x40\nMedida externa: 115x45\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Redondo", 
+      category: "Potes", 
+      subcategory: "Potes"
+    },
+    { 
+      id: 24, 
+      name: "P-750", 
+      description: "INFORMAÇÕES ADICIONAIS\nCaixa com 200 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 85x50\nMedida externa: 115x55\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Redondo", 
+      category: "Potes", 
+      subcategory: "Potes"
+    },
+    { 
+      id: 25, 
+      name: "P-771", 
+      description: "INFORMAÇÕES ADICIONAIS\nCaixa com 200 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 85x60\nMedida externa: 115x63\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Redondo", 
+      category: "Potes", 
+      subcategory: "Potes"
+    },
+    { 
+      id: 26, 
+      name: "P-650", 
+      description: "INFORMAÇÕES ADICIONAIS\nCaixa com 300 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 85x85x40\nMedida externa: 105x105x45\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Quadrado", 
+      category: "Potes", 
+      subcategory: "Potes"
+    },
+    { 
+      id: 27, 
+      name: "P-742M (Liso)", 
+      description: "INFORMAÇÕES ADICIONAIS\nCaixa com 200 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 85x40\nMedida externa: 115x45\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Redondo", 
+      category: "Potes", 
+      subcategory: "Potes Liso"
+    },
+    { 
+      id: 28, 
+      name: "P-750M (Liso)", 
+      description: "INFORMAÇÕES ADICIONAIS\nCaixa com 200 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 85x50\nMedida externa: 115x55\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Redondo", 
+      category: "Potes", 
+      subcategory: "Potes Liso"
+    },
+    { 
+      id: 29, 
+      name: "P-771M (Liso)", 
+      description: "INFORMAÇÕES ADICIONAIS\nCaixa com 200 unidades\nMaterial: Pet Cristal\n\nMEDIDAS em milímetros (mm)\nMedida interna: 85x60\nMedida externa: 115x65\n\nFECHAMENTO E FORMATO\nFechamento: Articulado\nFormato: Redondo", 
+      category: "Potes", 
+      subcategory: "Potes Liso"
+    },
     { 
       id: 17, 
       name: "PP-08 (Pino)", 
@@ -157,9 +217,6 @@ export const pplast: CompanyData = {
       subcategory: "s/ Pino",
       imageUrl: "/lovable-uploads/8c831e67-e6e8-47a2-9844-f11ebf1ccacb.png",
       images: ["/lovable-uploads/8c831e67-e6e8-47a2-9844-f11ebf1ccacb.png"]
-    },
-    { id: 2, name: "Potes com Tampa", description: "Potes plásticos com tampas seguras para alimentos", category: "Potes", subcategory: "Com Tampa" },
-    { id: 3, name: "Embalagem para Torta", description: "Embalagens redondas para tortas e bolos", category: "Confeitaria (Redondos e Fatia)", subcategory: "Tortas" },
-    { id: 4, name: "Embalagem para Bolos", description: "Embalagens retangulares para bolos e tortas", category: "Confeitaria (Retangulares e Quadrados)", subcategory: "Bolos" }
+    }
   ]
 };
