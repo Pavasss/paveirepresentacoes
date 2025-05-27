@@ -64,7 +64,7 @@ const Header = () => {
           <img 
             src="/lovable-uploads/ac1c91c5-de4b-47e9-9af8-59b6cb9afe73.png" 
             alt="Pavei Representações" 
-            className="h-8 md:h-10"
+            className="h-12 md:h-16"
           />
           <h1 className="text-xl md:text-2xl font-bold font-poppins text-brand-darkBlue">
             Pavei Representações
