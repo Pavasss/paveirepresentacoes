@@ -62,9 +62,9 @@ const Header = () => {
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         <div className="flex items-center space-x-3 cursor-pointer" onClick={() => navigate('/')}>
           <img 
-            src="/lovable-uploads/ac1c91c5-de4b-47e9-9af8-59b6cb9afe73.png" 
+            src="/lovable-uploads/a3d96ac5-b8bf-48ad-947a-670dbf941be9.png" 
             alt="Pavei Representações" 
-            className="h-12 md:h-16"
+            className="h-16 md:h-20"
           />
           <h1 className="text-xl md:text-2xl font-bold font-poppins text-brand-darkBlue">
             Pavei Representações
