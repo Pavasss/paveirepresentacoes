@@ -60,13 +60,12 @@ const Header = () => {
 
   return <header className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? "bg-white shadow-md py-2" : "bg-transparent py-4"}`}>
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
-        <div className="flex items-center">
-          <h1 
-            className="text-2xl font-bold font-poppins text-brand-darkBlue cursor-pointer"
-            onClick={() => navigate('/')}
-          >
-            Pavei Representações
-          </h1>
+        <div className="flex items-center cursor-pointer" onClick={() => navigate('/')}>
+          <img 
+            src="/lovable-uploads/ac1c91c5-de4b-47e9-9af8-59b6cb9afe73.png" 
+            alt="Pavei Representações" 
+            className="h-8 md:h-10"
+          />
         </div>
 
         {/* Desktop Navigation */}
