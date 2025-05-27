@@ -62,7 +62,7 @@ const Header = () => {
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         <div className="flex items-center space-x-3 cursor-pointer" onClick={() => navigate('/')}>
           <img 
-            src="/lovable-uploads/2f5c7861-0b72-4dce-b8be-ed78f24eac60.png" 
+            src="/lovable-uploads/ac1c91c5-de4b-47e9-9af8-59b6cb9afe73.png" 
             alt="Pavei Representações" 
             className="h-12 md:h-16"
           />
