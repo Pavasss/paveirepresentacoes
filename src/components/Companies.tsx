@@ -1,6 +1,7 @@
 
 import { Card, CardContent } from "./ui/card";
 import { Building2 } from "lucide-react";
+import { Link } from "react-router-dom";
 import { companiesData } from "../data/companies";
 
 const Companies = () => {
@@ -27,22 +28,24 @@ const Companies = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {companies.map((company, index) => (
             <div key={index} className="transform transition-all hover:scale-105 duration-300">
-              <Card className="h-full bg-white border border-gray-200 hover:shadow-md hover:border-brand-blue transition-all">
-                <CardContent className="p-6 flex flex-col items-center justify-center text-center h-full">
-                  {company.logo ? (
-                    <img 
-                      src={company.logo} 
-                      alt={`${company.name} logo`} 
-                      className="max-h-20 max-w-full object-contain mb-3" 
-                    />
-                  ) : (
-                    <Building2 className="h-10 w-10 text-brand-blue mb-3" />
-                  )}
-                  <h3 className="text-lg font-bold font-poppins text-brand-gray">
-                    {company.name}
-                  </h3>
-                </CardContent>
-              </Card>
+              <Link to={`/empresa/${company.id}`}>
+                <Card className="h-full bg-white border border-gray-200 hover:shadow-md hover:border-brand-blue transition-all cursor-pointer">
+                  <CardContent className="p-6 flex flex-col items-center justify-center text-center h-full">
+                    {company.logo ? (
+                      <img 
+                        src={company.logo} 
+                        alt={`${company.name} logo`} 
+                        className="max-h-20 max-w-full object-contain mb-3" 
+                      />
+                    ) : (
+                      <Building2 className="h-10 w-10 text-brand-blue mb-3" />
+                    )}
+                    <h3 className="text-lg font-bold font-poppins text-brand-gray">
+                      {company.name}
+                    </h3>
+                  </CardContent>
+                </Card>
+              </Link>
             </div>
           ))}
         </div>
