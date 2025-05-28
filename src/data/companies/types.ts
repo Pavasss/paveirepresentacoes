@@ -18,6 +18,5 @@ export type CompanyData = {
   description: string;
   foundedYear: string;
   location: string;
-  images?: string[]; // Array of company images for carousel
   products: Product[];
 };
