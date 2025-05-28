@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 
 type CompanyProduct = {
@@ -21,7 +20,7 @@ const CompanyProducts = () => {
     },
     {
       company: "P.Plast",
-      logo: "/lovable-uploads/6064741c-7a3c-48cb-a8de-8531f1c6b6ed.png",
+      logo: "/lovable-uploads/5a78da6c-6b3b-4daf-8c8e-d76947e47e5c.png",
       categories: ["Para Confeitaria: Pote e Bandeja"]
     },
     {
