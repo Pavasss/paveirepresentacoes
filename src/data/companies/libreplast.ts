@@ -1,15 +1,20 @@
-
 import { CompanyData } from './types';
-import LibreplastLogo from "/lovable-uploads/e2adbeea-74fd-47ed-81d5-5f38e7b22a1e.png";
+import LibreplastLogo from "/lovable-uploads/c77c4c53-0359-4de2-8906-d3469f298848.png";
 
 export const libreplast: CompanyData = {
   id: "libreplast",
   name: "Libreplast",
   logo: LibreplastLogo,
-  link: "https://www.libreplast.com.br/",
-  description: "Libreplast é uma empresa brasileira especializada na produção de embalagens plásticas de alta qualidade para diversos segmentos. Com mais de 20 anos no mercado, a empresa se destaca pela inovação e compromisso com a sustentabilidade em seus processos produtivos.",
-  foundedYear: "2000",
-  location: "Orleans, SC",
+  link: "https://libreplast.com.br/",
+  description: "A Libreplast é uma empresa brasileira especializada na fabricação de embalagens plásticas descartáveis de alta qualidade. Com mais de duas décadas de experiência no mercado, desenvolvemos soluções inovadoras para o setor alimentício, oferecendo produtos que combinam funcionalidade, segurança e sustentabilidade.",
+  foundedYear: "1998",
+  location: "São Paulo, SP",
+  images: [
+    "/lovable-uploads/01e89b04-1290-4f65-a85b-3099f8e65758.png",
+    "/lovable-uploads/0211c9d5-8826-4afc-98a4-3fe73a14272e.png",
+    "/lovable-uploads/070f5fb4-825e-4b6c-9d2b-60dd98a74215.png",
+    "/lovable-uploads/0b1547f6-e0ff-4be2-8b2c-f2962c8e5a6d.png"
+  ],
   products: [
     { id: 1, name: "Sacolas em Caixa Light", description: "Sacolas plásticas Light em caixas para uso comercial", category: "Sacolas em Caixa", subcategory: "Light" },
     { id: 2, name: "Sacolas em Caixa Gold", description: "Sacolas plásticas Gold em caixas para uso comercial", category: "Sacolas em Caixa", subcategory: "Gold" },
@@ -40,6 +45,12 @@ export const libreplast: CompanyData = {
     { id: 24, name: "Bobinas Lisa C/500", description: "Bobinas lisas com 500 unidades", category: "Bobinas", subcategory: "Lisa C/500" },
     { id: 25, name: "Bobinas Lisa C/400", description: "Bobinas lisas com 400 unidades", category: "Bobinas", subcategory: "Lisa C/400" },
     { id: 26, name: "Bobinas Libreroll", description: "Bobinas Libreroll para diversos usos", category: "Bobinas", subcategory: "Libreroll" },
-    { id: 27, name: "Bobinas Reforçada", description: "Bobinas com material reforçado para maior resistência", category: "Bobinas", subcategory: "Reforçada" }
+    { id: 27, name: "Bobinas Reforçada", description: "Bobinas com material reforçado para maior resistência", category: "Bobinas", subcategory: "Reforçada" },
+    
+    { id: 28, name: "Potes PP Redondos", description: "Potes de polipropileno com tampa para armazenamento", category: "Potes", subcategory: "PP" },
+    { id: 29, name: "Bandejas PS Brancas", description: "Bandejas de poliestireno para alimentos", category: "Bandejas", subcategory: "PS" },
+    { id: 30, name: "Copos PS Cristal", description: "Copos transparentes de poliestireno", category: "Copos", subcategory: "PS" },
+    { id: 31, name: "Tampas para Potes", description: "Tampas compatíveis com diversos tamanhos de potes", category: "Tampas", subcategory: "Universal" },
+    { id: 32, name: "Embalagens para Delivery", description: "Embalagens específicas para entrega de alimentos", category: "Delivery", subcategory: "Alimentos" }
   ]
 };
