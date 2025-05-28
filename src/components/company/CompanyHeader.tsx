@@ -1,5 +1,5 @@
 
-import { Building2, ExternalLink } from "lucide-react";
+import { Building2 } from "lucide-react";
 import { CompanyData } from "@/data/companies";
 
 type CompanyHeaderProps = {
@@ -23,14 +23,6 @@ const CompanyHeader = ({ company }: CompanyHeaderProps) => {
       <h1 className="text-3xl md:text-4xl font-bold text-brand-blue text-center">
         {company.name}
       </h1>
-      <a
-        href={company.link}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-2 flex items-center text-brand-blue hover:text-brand-darkBlue transition-colors"
-      >
-        Visitar site oficial <ExternalLink size={16} className="ml-1" />
-      </a>
     </div>
   );
 };
