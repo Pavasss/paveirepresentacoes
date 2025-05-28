@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import WhatsAppButton from "../components/WhatsAppButton";
 import CompanyHeader from "../components/company/CompanyHeader";
 import CompanyInfo from "../components/company/CompanyInfo";
+import ProductCarousel from "../components/company/ProductCarousel";
 import ProductsList from "../components/company/ProductsList";
 import CompanyNotFound from "../components/company/CompanyNotFound";
 import { companiesData } from "../data/companies";
@@ -25,6 +26,7 @@ const Company = () => {
         <div className="container mx-auto px-4 md:px-6">
           <CompanyHeader company={company} />
           <CompanyInfo company={company} />
+          <ProductCarousel company={company} />
           <ProductsList company={company} />
         </div>
       </main>
