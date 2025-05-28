@@ -75,47 +75,71 @@ const CompanyProducts = () => {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold font-poppins text-brand-blue mb-4">
-            Produtos por Empresa
+          <h2 className="text-4xl md:text-5xl font-bold font-poppins text-brand-blue mb-6">
+            Nossos Parceiros
           </h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Conheça as principais categorias de produtos de cada uma das nossas empresas representadas.
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            Trabalhamos com as melhores empresas do mercado para oferecer produtos de alta qualidade
           </p>
-          <div className="h-1 w-20 bg-brand-orange mx-auto mt-4"></div>
+          <div className="flex justify-center mt-6">
+            <div className="w-24 h-1 bg-gradient-to-r from-brand-orange to-yellow-400 rounded-full"></div>
+          </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
           {companyProducts.map((company, index) => (
-            <Card key={index} className="hover:shadow-lg transition-shadow h-full">
-              <CardHeader className="text-center pb-4">
-                <div className="flex justify-center mb-4">
-                  <img 
-                    src={company.logo} 
-                    alt={`${company.company} logo`}
-                    className="h-16 w-auto object-contain"
-                  />
+            <div 
+              key={index} 
+              className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100"
+            >
+              {/* Header with logo */}
+              <div className="relative p-8 pb-6 text-center">
+                <div className="absolute inset-0 bg-gradient-to-br from-brand-blue/5 to-brand-orange/5 rounded-t-2xl"></div>
+                <div className="relative z-10">
+                  <div className="w-20 h-20 mx-auto mb-4 bg-white rounded-xl shadow-md flex items-center justify-center">
+                    <img 
+                      src={company.logo} 
+                      alt={`${company.company} logo`}
+                      className="h-12 w-auto object-contain"
+                    />
+                  </div>
+                  <h3 className="text-2xl font-bold text-brand-blue group-hover:text-brand-orange transition-colors duration-300">
+                    {company.company}
+                  </h3>
                 </div>
-                <CardTitle className="text-xl font-bold text-brand-blue">
-                  {company.company}
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="pt-0">
-                <div className="space-y-2">
+              </div>
+
+              {/* Products list */}
+              <div className="px-8 pb-8">
+                <div className="space-y-3">
                   {company.categories.map((category, catIndex) => (
                     <div 
                       key={catIndex}
-                      className="bg-brand-lightGray p-3 rounded-lg text-sm text-gray-700"
+                      className="relative overflow-hidden bg-gradient-to-r from-gray-50 to-blue-50 p-4 rounded-xl border border-gray-200 hover:border-brand-orange/30 transition-all duration-300 group/item"
                     >
-                      {category}
+                      <div className="absolute inset-0 bg-gradient-to-r from-brand-orange/0 to-brand-orange/5 transform scale-x-0 group-hover/item:scale-x-100 transition-transform duration-300 origin-left"></div>
+                      <p className="relative z-10 text-sm text-gray-700 font-medium leading-relaxed">
+                        {category}
+                      </p>
                     </div>
                   ))}
                 </div>
-              </CardContent>
-            </Card>
+              </div>
+
+              {/* Decorative element */}
+              <div className="absolute top-4 right-4 w-3 h-3 bg-gradient-to-br from-brand-orange to-yellow-400 rounded-full opacity-60 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </div>
           ))}
+        </div>
+
+        {/* Call to action */}
+        <div className="text-center mt-16">
+          <div className="inline-flex items-center justify-center px-8 py-3 bg-gradient-to-r from-brand-blue to-blue-600 text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+            <span>Conheça todos os nossos produtos</span>
+          </div>
         </div>
       </div>
     </section>
