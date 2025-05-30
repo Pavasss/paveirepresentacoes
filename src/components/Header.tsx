@@ -4,7 +4,6 @@ import { Link } from "react-scroll";
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
 import { useLocation, useNavigate } from "react-router-dom";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "./ui/carousel";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,14 +42,6 @@ const Header = () => {
     to: "contact"
   }];
 
-  const carouselImages = [
-    { src: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?q=80&w=1200", alt: "Embalagens sustentáveis" },
-    { src: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=1200", alt: "Soluções em embalagens" },
-    { src: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1200", alt: "Produtos de qualidade" },
-    { src: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=1200", alt: "Inovação em embalagens" },
-    { src: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=1200", alt: "Tecnologia em embalagens" }
-  ];
-
   const handleNavigation = (sectionId: string) => {
     if (isHomePage) {
       // Use react-scroll for smooth scrolling on home page
@@ -67,8 +58,7 @@ const Header = () => {
     }
   };
 
-  return (
-    <header className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? "bg-white shadow-md py-2" : "bg-transparent py-4"}`}>
+  return <header className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? "bg-white shadow-md py-2" : "bg-transparent py-4"}`}>
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         <div className="flex items-center space-x-3 cursor-pointer" onClick={() => navigate('/')}>
           <img 
@@ -129,39 +119,7 @@ const Header = () => {
             </Button>
           </nav>
         </div>}
-
-      {/* Carousel de imagens na parte inferior do cabeçalho */}
-      <div className={`transition-all duration-300 ${scrolled ? "hidden" : "block"}`}>
-        <div className="container mx-auto px-4 md:px-6 mt-4">
-          <Carousel
-            opts={{
-              align: "start",
-              loop: true,
-            }}
-            className="w-full max-w-6xl mx-auto"
-          >
-            <CarouselContent>
-              {carouselImages.map((image, index) => (
-                <CarouselItem key={index} className="md:basis-1/3 lg:basis-1/4">
-                  <div className="p-1">
-                    <div className="relative overflow-hidden rounded-lg shadow-md h-32 md:h-40">
-                      <img
-                        src={image.src}
-                        alt={image.alt}
-                        className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
-                      />
-                    </div>
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
-          </Carousel>
-        </div>
-      </div>
-    </header>
-  );
+    </header>;
 };
 
 export default Header;
