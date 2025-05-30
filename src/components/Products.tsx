@@ -1,14 +1,13 @@
 
 import {
   Coffee,
-  Utensils,
-  CupSoda,
   Package,
-  Thermometer,
-  Hand,
+  CupSoda,
   ShoppingBag,
   Shirt,
-  ChefHat
+  Hand,
+  Layers,
+  RectangleHorizontal
 } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
 
@@ -21,19 +20,14 @@ type ProductCategory = {
 const Products = () => {
   const categories: ProductCategory[] = [
     {
-      name: "Copos",
-      icon: <Coffee className="h-10 w-10 text-brand-orange" />,
-      description: "Copos descartáveis de diversos tamanhos e materiais para bebidas quentes e frias.",
+      name: "Sacolas",
+      icon: <ShoppingBag className="h-10 w-10 text-brand-orange" />,
+      description: "Sacolas resistentes em diversos tamanhos para transporte de produtos.",
     },
     {
-      name: "Talheres",
-      icon: <Utensils className="h-10 w-10 text-brand-orange" />,
-      description: "Talheres descartáveis resistentes e de alta qualidade para diversos usos.",
-    },
-    {
-      name: "Canudos",
-      icon: <CupSoda className="h-10 w-10 text-brand-orange" />,
-      description: "Canudos descartáveis e ecológicos para bebidas, em diversos tamanhos.",
+      name: "Bobinas",
+      icon: <Layers className="h-10 w-10 text-brand-orange" />,
+      description: "Bobinas de alta qualidade para embalagem e proteção de produtos.",
     },
     {
       name: "Marmitas",
@@ -41,19 +35,19 @@ const Products = () => {
       description: "Marmitas e embalagens para delivery e transporte de alimentos.",
     },
     {
-      name: "Embalagens térmicas",
-      icon: <Thermometer className="h-10 w-10 text-brand-orange" />,
-      description: "Embalagens especiais para manter a temperatura ideal dos alimentos.",
+      name: "Canudos",
+      icon: <CupSoda className="h-10 w-10 text-brand-orange" />,
+      description: "Canudos descartáveis e ecológicos para bebidas, em diversos tamanhos.",
     },
     {
-      name: "Luvas",
-      icon: <Hand className="h-10 w-10 text-brand-orange" />,
-      description: "Luvas descartáveis para manipulação segura de alimentos e produtos.",
+      name: "Copos",
+      icon: <Coffee className="h-10 w-10 text-brand-orange" />,
+      description: "Copos descartáveis de diversos tamanhos e materiais para bebidas quentes e frias.",
     },
     {
-      name: "Sacolas",
-      icon: <ShoppingBag className="h-10 w-10 text-brand-orange" />,
-      description: "Sacolas resistentes em diversos tamanhos para transporte de produtos.",
+      name: "Bandejas",
+      icon: <RectangleHorizontal className="h-10 w-10 text-brand-orange" />,
+      description: "Bandejas práticas e resistentes para servir e apresentar alimentos.",
     },
     {
       name: "Panos",
@@ -61,43 +55,49 @@ const Products = () => {
       description: "Panos de limpeza e higienização para ambientes comerciais.",
     },
     {
-      name: "Toucas",
-      icon: <ChefHat className="h-10 w-10 text-brand-orange" />,
-      description: "Toucas descartáveis para uso em cozinhas e ambientes que exigem higiene.",
+      name: "Luvas",
+      icon: <Hand className="h-10 w-10 text-brand-orange" />,
+      description: "Luvas descartáveis para manipulação segura de alimentos e produtos.",
     },
   ];
 
   return (
-    <section id="products" className="py-20 bg-brand-lightGray">
+    <section id="products" className="py-20 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold font-poppins text-brand-blue mb-4">
-            Nossos Produtos
+          <h2 className="text-3xl md:text-4xl font-bold font-poppins text-brand-gray mb-4">
+            Produtos que Vendemos
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Oferecemos uma ampla variedade de produtos para atender às necessidades do seu negócio.
+            Oferecemos uma linha completa de produtos descartáveis e embalagens de alta qualidade para atender às necessidades do seu negócio.
           </p>
           <div className="h-1 w-20 bg-brand-orange mx-auto mt-4"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {categories.map((category, index) => (
             <div key={index} className="transform transition-transform hover:-translate-y-2 duration-300">
-              <Card className="h-full border-t-4 border-t-brand-orange overflow-hidden bg-white hover:shadow-lg transition-shadow">
-                <CardContent className="p-6 flex flex-col items-center text-center">
-                  <div className="mb-5 p-3 bg-brand-orange/10 rounded-full">
+              <Card className="h-full border-0 shadow-md hover:shadow-xl transition-shadow bg-white">
+                <CardContent className="p-6 flex flex-col items-center text-center h-full">
+                  <div className="mb-4 p-4 bg-brand-orange/10 rounded-full">
                     {category.icon}
                   </div>
-                  <h3 className="text-xl font-bold font-poppins text-brand-blue mb-3">
+                  <h3 className="text-lg font-bold font-poppins text-brand-gray mb-3">
                     {category.name}
                   </h3>
-                  <p className="text-gray-600 font-inter">
+                  <p className="text-gray-600 font-inter text-sm leading-relaxed">
                     {category.description}
                   </p>
                 </CardContent>
               </Card>
             </div>
           ))}
+        </div>
+        
+        <div className="mt-16 text-center">
+          <p className="text-gray-600 italic text-lg">
+            "Qualidade e praticidade em cada produto para o seu negócio crescer."
+          </p>
         </div>
       </div>
     </section>
