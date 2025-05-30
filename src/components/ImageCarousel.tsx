@@ -14,24 +14,32 @@ const ImageCarousel = () => {
       alt: "Produtos Liplast - Sacolas sustentáveis"
     },
     {
-      src: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?q=80&w=2070",
-      alt: "Embalagens modernas"
+      src: "/lovable-uploads/236072c1-078d-43a8-8cc7-adf629fab601.png",
+      alt: "Produtos Guarufilme - Filmes plásticos"
     },
     {
-      src: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=2070", 
-      alt: "Soluções em embalagens"
+      src: "/lovable-uploads/1f02c035-796e-418f-883e-d19e6464ca1b.png",
+      alt: "Produtos Pplast - Embalagens descartáveis"
     },
     {
-      src: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070",
-      alt: "Tecnologia em embalagens"
+      src: "/lovable-uploads/e2e60e61-1c12-4916-9d56-11ce8e43c062.png",
+      alt: "Produtos Vabene - Utensílios descartáveis"
     },
     {
-      src: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2070",
-      alt: "Inovação e qualidade"
+      src: "/lovable-uploads/ff3f6c9c-2a5d-4bc4-9309-72f1200a1524.png",
+      alt: "Produtos Libreplast - Sacolas biodegradáveis"
     },
     {
-      src: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2070",
-      alt: "Representações de qualidade"
+      src: "/lovable-uploads/eecf553d-beaa-4f8a-99ec-718fded775ff.png",
+      alt: "Produtos Totalplast - Descartáveis"
+    },
+    {
+      src: "/lovable-uploads/0f1f6a30-50fd-4e6b-9dbe-ed4ed3e93aba.png",
+      alt: "Produtos Magitus - Utensílios plásticos"
+    },
+    {
+      src: "/lovable-uploads/225a243d-16fd-4611-b396-0ba8529b8386.png",
+      alt: "Produtos Plastsul - Canudos e acessórios"
     }
   ];
 
