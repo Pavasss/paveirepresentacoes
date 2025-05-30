@@ -10,10 +10,11 @@ const WhatsAppButton = () => {
       href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors z-50 flex items-center justify-center"
+      className="fixed bottom-6 right-6 bg-green-500 text-white px-4 py-3 rounded-full shadow-lg hover:bg-green-600 transition-colors z-50 flex items-center justify-center gap-2"
       aria-label="Contato via WhatsApp"
     >
-      <MessageCircle size={28} />
+      <MessageCircle size={24} />
+      <span className="font-medium text-sm whitespace-nowrap">Entre em contato!</span>
     </a>
   );
 };
