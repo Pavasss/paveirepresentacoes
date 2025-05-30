@@ -1,5 +1,5 @@
 
-import { Mail, Phone, MessageSquare, MapPin, Instagram } from "lucide-react";
+import { Phone, MessageSquare, MapPin, Instagram } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -40,16 +40,6 @@ const Contact = () => {
                 <div>
                   <h4 className="font-bold text-gray-800 mb-1">WhatsApp</h4>
                   <p className="text-gray-600">(51) 98089-1199</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start">
-                <div className="mr-4 bg-brand-blue/10 p-3 rounded-full">
-                  <Mail className="h-6 w-6 text-brand-blue" />
-                </div>
-                <div>
-                  <h4 className="font-bold text-gray-800 mb-1">Email</h4>
-                  <p className="text-gray-600">contato@paveirepresentacoes.com.br</p>
                 </div>
               </div>
               
