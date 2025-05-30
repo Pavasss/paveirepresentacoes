@@ -1,4 +1,4 @@
-import { Instagram, Facebook, Linkedin, Mail } from "lucide-react";
+import { Instagram, Facebook, Linkedin } from "lucide-react";
 import { Link } from "react-scroll";
 
 const Footer = () => {
@@ -28,9 +28,6 @@ const Footer = () => {
               </a>
               <a href="#" className="text-white hover:text-brand-blue transition-colors">
                 <Linkedin size={20} />
-              </a>
-              <a href="mailto:contato@paveirepresentacoes.com.br" className="text-white hover:text-brand-blue transition-colors">
-                <Mail size={20} />
               </a>
             </div>
           </div>
@@ -66,7 +63,6 @@ const Footer = () => {
             <ul className="space-y-2 text-gray-300">
               <li>Telefone: (51) 98089-1199</li>
               <li>WhatsApp: (51) 98089-1199</li>
-              <li>Email: contato@paveirepresentacoes.com.br</li>
               <li>Rio Grande do Sul - RS</li>
             </ul>
           </div>
