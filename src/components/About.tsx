@@ -14,7 +14,7 @@ const About = () => {
         
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="flex justify-center flex-col space-y-6">
-            <div className="relative overflow-hidden rounded-lg shadow-lg h-[400px]">
+            <div className="relative overflow-hidden rounded-lg shadow-lg h-[300px]">
               <img
                 src="/lovable-uploads/53fdecea-ef57-46c2-8a64-37feb6bc74e1.png"
                 alt="Profissionais da Pavei Representações"
