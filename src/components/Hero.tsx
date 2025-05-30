@@ -31,7 +31,7 @@ const Hero = () => {
           </div>
           
           <div className="hidden md:block animate-fade-in-up">
-            <img alt="Embalagens de qualidade" className="rounded-lg shadow-xl transform hover:scale-105 transition-transform duration-300" src="/lovable-uploads/6eedf647-a60e-48e0-a7a7-3cbe30f786c2.png" />
+            <img alt="Embalagens de qualidade" className="rounded-lg shadow-xl transform hover:scale-105 transition-transform duration-300" src="/lovable-uploads/1e352316-3850-4a63-87ae-afb3d981be8f.png" />
           </div>
         </div>
       </div>
