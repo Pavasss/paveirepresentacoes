@@ -10,6 +10,10 @@ import {
 const ImageCarousel = () => {
   const images = [
     {
+      src: "/lovable-uploads/b353bc51-a93c-4c96-b381-b7af33516279.png",
+      alt: "Produtos Liplast - Sacolas sustentáveis"
+    },
+    {
       src: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?q=80&w=2070",
       alt: "Embalagens modernas"
     },
