@@ -1,14 +1,4 @@
 
-import {
-  Coffee,
-  Package,
-  CupSoda,
-  ShoppingBag,
-  Shirt,
-  Hand,
-  Layers,
-  RectangleHorizontal
-} from "lucide-react";
 import { Card, CardContent } from "./ui/card";
 
 type ProductCategory = {
@@ -21,42 +11,42 @@ const Products = () => {
   const categories: ProductCategory[] = [
     {
       name: "Sacolas",
-      icon: <ShoppingBag className="h-10 w-10 text-brand-orange" />,
+      icon: <img src="/lovable-uploads/9fcd58d6-fd83-4d54-8cfa-acbe179a203d.png" alt="Sacolas" className="h-10 w-10" />,
       description: "Sacolas resistentes em diversos tamanhos para transporte de produtos.",
     },
     {
       name: "Bobinas",
-      icon: <Layers className="h-10 w-10 text-brand-orange" />,
+      icon: <img src="/lovable-uploads/4cc73409-6393-4254-a562-0dd71d8bb02e.png" alt="Bobinas" className="h-10 w-10" />,
       description: "Bobinas de alta qualidade para embalagem e proteção de produtos.",
     },
     {
       name: "Marmitas",
-      icon: <Package className="h-10 w-10 text-brand-orange" />,
+      icon: <img src="/lovable-uploads/bd3ca14d-eee7-43ea-aeac-9c1b94b64285.png" alt="Marmitas" className="h-10 w-10" />,
       description: "Marmitas e embalagens para delivery e transporte de alimentos.",
     },
     {
       name: "Canudos",
-      icon: <CupSoda className="h-10 w-10 text-brand-orange" />,
+      icon: <img src="/lovable-uploads/199bfff6-bcf2-4f46-801e-d7ad81f1e8de.png" alt="Canudos" className="h-10 w-10" />,
       description: "Canudos descartáveis e ecológicos para bebidas, em diversos tamanhos.",
     },
     {
       name: "Copos",
-      icon: <Coffee className="h-10 w-10 text-brand-orange" />,
+      icon: <img src="/lovable-uploads/237bc5c5-d161-4c99-9ee8-9193ab7f4a23.png" alt="Copos" className="h-10 w-10" />,
       description: "Copos descartáveis de diversos tamanhos e materiais para bebidas quentes e frias.",
     },
     {
       name: "Bandejas",
-      icon: <RectangleHorizontal className="h-10 w-10 text-brand-orange" />,
+      icon: <img src="/lovable-uploads/d20ecd65-cab6-4f4c-aa50-44756d350728.png" alt="Bandejas" className="h-10 w-10" />,
       description: "Bandejas práticas e resistentes para servir e apresentar alimentos.",
     },
     {
       name: "Panos",
-      icon: <Shirt className="h-10 w-10 text-brand-orange" />,
+      icon: <img src="/lovable-uploads/c5c721a2-9a5e-4249-8744-07f63843d0e6.png" alt="Panos" className="h-10 w-10" />,
       description: "Panos de limpeza e higienização para ambientes comerciais.",
     },
     {
       name: "Luvas",
-      icon: <Hand className="h-10 w-10 text-brand-orange" />,
+      icon: <img src="/lovable-uploads/0e60ad64-e0ed-4a65-bc9b-cb03461317f0.png" alt="Luvas" className="h-10 w-10" />,
       description: "Luvas descartáveis para manipulação segura de alimentos e produtos.",
     },
   ];
